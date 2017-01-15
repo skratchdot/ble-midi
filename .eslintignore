@@ -1,0 +1,6 @@
+# ignore these files:
+!.eslintrc
+_ignore/
+coverage/
+lib/
+node_modules/

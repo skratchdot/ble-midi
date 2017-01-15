@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`log(...args) 1`] = `
+Object {
+  "calls": Array [
+    Array [],
+    Array [
+      "hi",
+    ],
+    Array [
+      "hi",
+      "everybody",
+    ],
+  ],
+  "instances": Array [
+    CustomConsole {
+      "_formatBuffer": [Function],
+      "assert": [Function],
+      "dir": [Function],
+      "error": [Function],
+      "info": [Function],
+      "log": [Function],
+      "time": [Function],
+      "timeEnd": [Function],
+      "trace": [Function],
+      "warn": [Function],
+    },
+    CustomConsole {
+      "_formatBuffer": [Function],
+      "assert": [Function],
+      "dir": [Function],
+      "error": [Function],
+      "info": [Function],
+      "log": [Function],
+      "time": [Function],
+      "timeEnd": [Function],
+      "trace": [Function],
+      "warn": [Function],
+    },
+    CustomConsole {
+      "_formatBuffer": [Function],
+      "assert": [Function],
+      "dir": [Function],
+      "error": [Function],
+      "info": [Function],
+      "log": [Function],
+      "time": [Function],
+      "timeEnd": [Function],
+      "trace": [Function],
+      "warn": [Function],
+    },
+  ],
+}
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`builder(yargs) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "Usage: $0 list-devices",
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`handler 1`] = `
+Object {
+  "calls": Array [
+    Array [],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;

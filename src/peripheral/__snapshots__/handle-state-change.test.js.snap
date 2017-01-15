@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should handleStateChange when not poweredOn 1`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`should handleStateChange when not poweredOn 2`] = `
+Object {
+  "calls": Array [
+    Array [],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`should handleStateChange when not poweredOn 3`] = `
+Object {
+  "calls": Array [
+    Array [
+      "stateChange: mock-state",
+    ],
+    Array [
+      "Stop advertising Peripheral \\"mock-name\\": 03B80E5A-EDE8-4B33-A751-6CE34EC4C700",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+    undefined,
+  ],
+}
+`;
+
+exports[`should handleStateChange when poweredOn 1`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`should handleStateChange when poweredOn 2`] = `
+Object {
+  "calls": Array [
+    Array [
+      "mock-name",
+      Array [
+        "03B80E5A-EDE8-4B33-A751-6CE34EC4C700",
+      ],
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`should handleStateChange when poweredOn 3`] = `
+Object {
+  "calls": Array [
+    Array [
+      "stateChange: poweredOn",
+    ],
+    Array [
+      "Start Advertising Peripheral \\"mock-name\\": 03B80E5A-EDE8-4B33-A751-6CE34EC4C700",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+    undefined,
+  ],
+}
+`;

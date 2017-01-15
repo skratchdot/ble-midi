@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles help 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "Usage: $0 <command> [options]",
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`handles help 2`] = `
+Object {
+  "calls": Array [
+    Array [
+      "cmds",
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`handles help 3`] = `
+Object {
+  "calls": Array [
+    Array [
+      "help",
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`handles help 4`] = `
+Object {
+  "calls": Array [
+    Array [
+      "h",
+      "help",
+    ],
+    Array [
+      "v",
+      "version",
+    ],
+  ],
+  "instances": Array [
+    [Function],
+    [Function],
+  ],
+}
+`;
+
+exports[`handles help 5`] = `
+Object {
+  "calls": Array [
+    Array [
+      "ble-midi version 0.0.1",
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`handles help 6`] = `
+Object {
+  "calls": Array [
+    Array [
+      1,
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`handles help 7`] = `
+Object {
+  "calls": Array [
+    Array [],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;

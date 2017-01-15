@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`defaultHandler("mock-one", []) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "mock-one: []",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;
+
+exports[`defaultHandler("mock-three", [true,{},"cool"]) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "mock-three: [true,{},\\"cool\\"]",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;
+
+exports[`defaultHandler("mock-two", [0,42]) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "mock-two: [0,42]",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;

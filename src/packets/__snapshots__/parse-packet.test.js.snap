@@ -1,0 +1,441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should parsePacket(packet) with no-header 1`] = `
+Info {
+  "events": Array [],
+  "index": 1,
+  "isHeaderValid": false,
+  "midiStatus": -1,
+  "packet": Object {
+    "data": Array [
+      60,
+      196,
+      144,
+      64,
+      95,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": -1,
+  "timestampHigh": 60,
+  "timestampLow": -1,
+}
+`;
+
+exports[`should parsePacket(packet) with one-midi-message 1`] = `
+Info {
+  "events": Array [
+    MessageMidiFull {
+      "midiOne": 64,
+      "midiStatus": 144,
+      "midiTwo": 95,
+      "timestamp": 7748,
+      "type": "fullMidiMessage",
+    },
+  ],
+  "index": 5,
+  "isHeaderValid": true,
+  "midiStatus": 144,
+  "packet": Object {
+    "data": Array [
+      188,
+      196,
+      144,
+      64,
+      95,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": 7748,
+  "timestampHigh": 60,
+  "timestampLow": 68,
+}
+`;
+
+exports[`should parsePacket(packet) with running-status 1`] = `
+Info {
+  "events": Array [
+    MessageMidiFull {
+      "midiOne": 64,
+      "midiStatus": 144,
+      "midiTwo": 95,
+      "timestamp": 7748,
+      "type": "fullMidiMessage",
+    },
+    MessageMidiRunning {
+      "midiOne": 64,
+      "midiStatus": 144,
+      "midiTwo": 95,
+      "timestamp": 7748,
+      "type": "runningMidiMessage",
+    },
+  ],
+  "index": 7,
+  "isHeaderValid": true,
+  "midiStatus": 144,
+  "packet": Object {
+    "data": Array [
+      188,
+      196,
+      144,
+      64,
+      95,
+      64,
+      95,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": 7748,
+  "timestampHigh": 60,
+  "timestampLow": 68,
+}
+`;
+
+exports[`should parsePacket(packet) with running-status-invalid 1`] = `
+Info {
+  "events": Array [
+    MessageMidiFull {
+      "midiOne": 64,
+      "midiStatus": 144,
+      "midiTwo": 95,
+      "timestamp": 7748,
+      "type": "fullMidiMessage",
+    },
+    MessageUnknown {
+      "skipData": Object {
+        "data": Array [
+          64,
+          223,
+        ],
+        "type": "Buffer",
+      },
+      "skipIndex": 5,
+      "type": "unknown",
+    },
+  ],
+  "index": 7,
+  "isHeaderValid": true,
+  "midiStatus": 144,
+  "packet": Object {
+    "data": Array [
+      188,
+      196,
+      144,
+      64,
+      95,
+      64,
+      223,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": 7748,
+  "timestampHigh": 60,
+  "timestampLow": 68,
+}
+`;
+
+exports[`should parsePacket(packet) with running-status-no-status 1`] = `
+Info {
+  "events": Array [
+    MessageMidiRunning {
+      "midiOne": 64,
+      "midiStatus": -1,
+      "midiTwo": 95,
+      "timestamp": 7748,
+      "type": "runningMidiMessage",
+    },
+  ],
+  "index": 4,
+  "isHeaderValid": true,
+  "midiStatus": -1,
+  "packet": Object {
+    "data": Array [
+      188,
+      196,
+      64,
+      95,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": 7748,
+  "timestampHigh": 60,
+  "timestampLow": 68,
+}
+`;
+
+exports[`should parsePacket(packet) with sysex-end-only 1`] = `
+Info {
+  "events": Array [
+    MessageMidiSysex {
+      "data": Object {
+        "data": Array [
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+        ],
+        "type": "Buffer",
+      },
+      "isEnd": true,
+      "isStart": false,
+      "type": "sysex",
+    },
+  ],
+  "index": 11,
+  "isHeaderValid": true,
+  "midiStatus": -1,
+  "packet": Object {
+    "data": Array [
+      128,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      128,
+      247,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": -1,
+  "timestampHigh": 0,
+  "timestampLow": -1,
+}
+`;
+
+exports[`should parsePacket(packet) with sysex-no-start-or-end 1`] = `
+Info {
+  "events": Array [
+    MessageMidiSysex {
+      "data": Object {
+        "data": Array [
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+        ],
+        "type": "Buffer",
+      },
+      "isEnd": false,
+      "isStart": false,
+      "type": "sysex",
+    },
+  ],
+  "index": 7,
+  "isHeaderValid": true,
+  "midiStatus": -1,
+  "packet": Object {
+    "data": Array [
+      128,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": -1,
+  "timestampHigh": 0,
+  "timestampLow": -1,
+}
+`;
+
+exports[`should parsePacket(packet) with sysex-start-and-end 1`] = `
+Info {
+  "events": Array [
+    MessageMidiSysex {
+      "data": Object {
+        "data": Array [
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+        ],
+        "type": "Buffer",
+      },
+      "isEnd": true,
+      "isStart": true,
+      "type": "sysex",
+    },
+  ],
+  "index": 13,
+  "isHeaderValid": true,
+  "midiStatus": -1,
+  "packet": Object {
+    "data": Array [
+      128,
+      128,
+      240,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      128,
+      247,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": -1,
+  "timestampHigh": 0,
+  "timestampLow": -1,
+}
+`;
+
+exports[`should parsePacket(packet) with sysex-start-only 1`] = `
+Info {
+  "events": Array [
+    MessageMidiSysex {
+      "data": Object {
+        "data": Array [
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+        ],
+        "type": "Buffer",
+      },
+      "isEnd": false,
+      "isStart": true,
+      "type": "sysex",
+    },
+  ],
+  "index": 11,
+  "isHeaderValid": true,
+  "midiStatus": -1,
+  "packet": Object {
+    "data": Array [
+      128,
+      128,
+      240,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": -1,
+  "timestampHigh": 0,
+  "timestampLow": -1,
+}
+`;
+
+exports[`should parsePacket(packet) with three-midi-messages 1`] = `
+Info {
+  "events": Array [
+    MessageMidiFull {
+      "midiOne": 64,
+      "midiStatus": 144,
+      "midiTwo": 0,
+      "timestamp": 5662,
+      "type": "fullMidiMessage",
+    },
+    MessageMidiFull {
+      "midiOne": 63,
+      "midiStatus": 144,
+      "midiTwo": 95,
+      "timestamp": 5662,
+      "type": "fullMidiMessage",
+    },
+    MessageMidiFull {
+      "midiOne": 63,
+      "midiStatus": 144,
+      "midiTwo": 0,
+      "timestamp": 5670,
+      "type": "fullMidiMessage",
+    },
+  ],
+  "index": 13,
+  "isHeaderValid": true,
+  "midiStatus": 144,
+  "packet": Object {
+    "data": Array [
+      172,
+      158,
+      144,
+      64,
+      0,
+      158,
+      144,
+      63,
+      95,
+      166,
+      144,
+      63,
+      0,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": 5670,
+  "timestampHigh": 44,
+  "timestampLow": 38,
+}
+`;
+
+exports[`should parsePacket(packet) with two-midi-messages 1`] = `
+Info {
+  "events": Array [
+    MessageMidiFull {
+      "midiOne": 57,
+      "midiStatus": 144,
+      "midiTwo": 0,
+      "timestamp": 4237,
+      "type": "fullMidiMessage",
+    },
+    MessageMidiFull {
+      "midiOne": 55,
+      "midiStatus": 144,
+      "midiTwo": 95,
+      "timestamp": 4237,
+      "type": "fullMidiMessage",
+    },
+  ],
+  "index": 9,
+  "isHeaderValid": true,
+  "midiStatus": 144,
+  "packet": Object {
+    "data": Array [
+      161,
+      141,
+      144,
+      57,
+      0,
+      141,
+      144,
+      55,
+      95,
+    ],
+    "type": "Buffer",
+  },
+  "timestamp": 4237,
+  "timestampHigh": 33,
+  "timestampLow": 13,
+}
+`;

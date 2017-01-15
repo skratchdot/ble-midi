@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should handleAdvertisingStart error 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "advertisingStart: Error: mock-error",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;
+
+exports[`should handleAdvertisingStart success 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "advertisingStart: success",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;
+
+exports[`should handleAdvertisingStart success 2`] = `
+Object {
+  "calls": Array [
+    Array [
+      Array [
+        PrimaryService {
+          "characteristics": Array [
+            Characteristic {
+              "_events": Object {
+                "indicate": [Function],
+                "notify": [Function],
+                "readRequest": [Function],
+                "subscribe": [Function],
+                "unsubscribe": [Function],
+                "writeRequest": [Function],
+              },
+              "_eventsCount": 6,
+              "descriptors": Array [],
+              "onIndicate": [Function],
+              "onNotify": [Function],
+              "onReadRequest": [Function],
+              "onSubscribe": [Function],
+              "onUnsubscribe": [Function],
+              "onWriteRequest": [Function],
+              "properties": Array [
+                "read",
+                "write",
+                "writeWithoutResponse",
+                "notify",
+              ],
+              "secure": Array [
+                "read",
+                "write",
+                "writeWithoutResponse",
+                "notify",
+              ],
+              "uuid": "7772E5DB38684112A1A9F2669D106BF3",
+              "value": null,
+            },
+          ],
+          "uuid": "03B80E5AEDE84B33A7516CE34EC4C700",
+        },
+      ],
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`constants 1`] = `
+Object {
+  "createPeripheral": [Function],
+  "listDevices": [Function],
+}
+`;

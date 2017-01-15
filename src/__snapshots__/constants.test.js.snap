@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`constants 1`] = `
+Object {
+  "DEFAULT_SERVICE_NAME": "skratchdot-ble-midi",
+  "MIDI_IO_CHARACTERISTIC_UID": "7772E5DB-3868-4112-A1A9-F2669D106BF3",
+  "MIDI_SERVICE_UID": "03B80E5A-EDE8-4B33-A751-6CE34EC4C700",
+  "SYSEX_END": 247,
+  "SYSEX_START": 240,
+}
+`;

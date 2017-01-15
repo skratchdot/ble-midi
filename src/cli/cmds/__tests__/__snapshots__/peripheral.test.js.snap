@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`builder(yargs) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "Usage: $0 peripheral",
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`builder(yargs) 2`] = `
+Object {
+  "calls": Array [
+    Array [
+      "n",
+      Object {
+        "alias": "name",
+        "default": "skratchdot-ble-midi",
+        "describe": "The service name to advertise",
+        "type": "string",
+      },
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`handler(argv) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "MOCK_NAME",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;

@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should createPeripheral with default name 1`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`should createPeripheral with default name 2`] = `
+Object {
+  "calls": Array [
+    Array [
+      "stateChange",
+      [Function],
+    ],
+    Array [
+      "advertisingStart",
+      [Function],
+    ],
+    Array [
+      "platform",
+      [Function],
+    ],
+    Array [
+      "addressChange",
+      [Function],
+    ],
+    Array [
+      "advertisingStop",
+      [Function],
+    ],
+    Array [
+      "servicesSet",
+      [Function],
+    ],
+    Array [
+      "accept",
+      [Function],
+    ],
+    Array [
+      "mtuChange",
+      [Function],
+    ],
+    Array [
+      "disconnect",
+      [Function],
+    ],
+  ],
+  "instances": Array [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+}
+`;
+
+exports[`should createPeripheral(name) 1`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`should createPeripheral(name) 2`] = `
+Object {
+  "calls": Array [
+    Array [
+      "stateChange",
+      [Function],
+    ],
+    Array [
+      "advertisingStart",
+      [Function],
+    ],
+    Array [
+      "platform",
+      [Function],
+    ],
+    Array [
+      "addressChange",
+      [Function],
+    ],
+    Array [
+      "advertisingStop",
+      [Function],
+    ],
+    Array [
+      "servicesSet",
+      [Function],
+    ],
+    Array [
+      "accept",
+      [Function],
+    ],
+    Array [
+      "mtuChange",
+      [Function],
+    ],
+    Array [
+      "disconnect",
+      [Function],
+    ],
+  ],
+  "instances": Array [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+}
+`;

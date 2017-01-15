@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`listDevices(["input","invalid","output"]) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "
+Available Devices (input):",
+    ],
+    Array [
+      "0: MOCK_DEVICE_0",
+    ],
+    Array [
+      "1: MOCK_DEVICE_1",
+    ],
+    Array [
+      "
+Available Devices (output):",
+    ],
+    Array [
+      "0: MOCK_DEVICE_0",
+    ],
+    Array [
+      "1: MOCK_DEVICE_1",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+  ],
+}
+`;
+
+exports[`listDevices(["input","invalid","output"]) 2`] = `undefined`;
+
+exports[`listDevices(["input","output"]) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "
+Available Devices (input):",
+    ],
+    Array [
+      "0: MOCK_DEVICE_0",
+    ],
+    Array [
+      "1: MOCK_DEVICE_1",
+    ],
+    Array [
+      "
+Available Devices (output):",
+    ],
+    Array [
+      "0: MOCK_DEVICE_0",
+    ],
+    Array [
+      "1: MOCK_DEVICE_1",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+  ],
+}
+`;
+
+exports[`listDevices(["input","output"]) 2`] = `undefined`;
+
+exports[`listDevices(["input"]) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "
+Available Devices (input):",
+    ],
+    Array [
+      "0: MOCK_DEVICE_0",
+    ],
+    Array [
+      "1: MOCK_DEVICE_1",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+    undefined,
+    undefined,
+  ],
+}
+`;
+
+exports[`listDevices(["input"]) 2`] = `undefined`;
+
+exports[`listDevices(["invalid"]) 1`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`listDevices(["invalid"]) 2`] = `undefined`;
+
+exports[`listDevices(["output","input"]) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "
+Available Devices (output):",
+    ],
+    Array [
+      "0: MOCK_DEVICE_0",
+    ],
+    Array [
+      "1: MOCK_DEVICE_1",
+    ],
+    Array [
+      "
+Available Devices (input):",
+    ],
+    Array [
+      "0: MOCK_DEVICE_0",
+    ],
+    Array [
+      "1: MOCK_DEVICE_1",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+  ],
+}
+`;
+
+exports[`listDevices(["output","input"]) 2`] = `undefined`;
+
+exports[`listDevices(["output"]) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "
+Available Devices (output):",
+    ],
+    Array [
+      "0: MOCK_DEVICE_0",
+    ],
+    Array [
+      "1: MOCK_DEVICE_1",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+    undefined,
+    undefined,
+  ],
+}
+`;
+
+exports[`listDevices(["output"]) 2`] = `undefined`;
+
+exports[`listDevices([]) 1`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`listDevices([]) 2`] = `undefined`;
+
+exports[`listDevices(undefined) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "
+Available Devices (input):",
+    ],
+    Array [
+      "0: MOCK_DEVICE_0",
+    ],
+    Array [
+      "1: MOCK_DEVICE_1",
+    ],
+    Array [
+      "
+Available Devices (output):",
+    ],
+    Array [
+      "0: MOCK_DEVICE_0",
+    ],
+    Array [
+      "1: MOCK_DEVICE_1",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+  ],
+}
+`;
+
+exports[`listDevices(undefined) 2`] = `undefined`;

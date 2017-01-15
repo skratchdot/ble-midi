@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should onSubscribe(maxValueSize, updateValueCallback) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      "onSubscribe",
+      [Function],
+      [Function],
+    ],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;

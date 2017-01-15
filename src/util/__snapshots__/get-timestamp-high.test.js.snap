@@ -1,0 +1,1201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getTimestampHigh(byte) 1`] = `20`;
+
+exports[`getTimestampHigh(byte) 2`] = `21`;
+
+exports[`getTimestampHigh(byte) 3`] = `22`;
+
+exports[`getTimestampHigh(byte) 4`] = `23`;
+
+exports[`getTimestampHigh(byte) 5`] = `24`;
+
+exports[`getTimestampHigh(byte) 6`] = `25`;
+
+exports[`getTimestampHigh(byte) 7`] = `26`;
+
+exports[`getTimestampHigh(byte) 8`] = `27`;
+
+exports[`getTimestampHigh(byte) 9`] = `28`;
+
+exports[`getTimestampHigh(byte) 10`] = `29`;
+
+exports[`getTimestampHigh(byte) 11`] = `30`;
+
+exports[`getTimestampHigh(byte) 12`] = `31`;
+
+exports[`getTimestampHigh(byte) 13`] = `32`;
+
+exports[`getTimestampHigh(byte) 14`] = `33`;
+
+exports[`getTimestampHigh(byte) 15`] = `34`;
+
+exports[`getTimestampHigh(byte) 16`] = `35`;
+
+exports[`getTimestampHigh(byte) 17`] = `36`;
+
+exports[`getTimestampHigh(byte) 18`] = `37`;
+
+exports[`getTimestampHigh(byte) 19`] = `38`;
+
+exports[`getTimestampHigh(byte) 20`] = `39`;
+
+exports[`getTimestampHigh(byte) 21`] = `40`;
+
+exports[`getTimestampHigh(byte) 22`] = `41`;
+
+exports[`getTimestampHigh(byte) 23`] = `42`;
+
+exports[`getTimestampHigh(byte) 24`] = `43`;
+
+exports[`getTimestampHigh(byte) 25`] = `44`;
+
+exports[`getTimestampHigh(byte) 26`] = `45`;
+
+exports[`getTimestampHigh(byte) 27`] = `46`;
+
+exports[`getTimestampHigh(byte) 28`] = `47`;
+
+exports[`getTimestampHigh(byte) 29`] = `48`;
+
+exports[`getTimestampHigh(byte) 30`] = `49`;
+
+exports[`getTimestampHigh(byte) 31`] = `50`;
+
+exports[`getTimestampHigh(byte) 32`] = `51`;
+
+exports[`getTimestampHigh(byte) 33`] = `52`;
+
+exports[`getTimestampHigh(byte) 34`] = `53`;
+
+exports[`getTimestampHigh(byte) 35`] = `54`;
+
+exports[`getTimestampHigh(byte) 36`] = `55`;
+
+exports[`getTimestampHigh(byte) 37`] = `56`;
+
+exports[`getTimestampHigh(byte) 38`] = `57`;
+
+exports[`getTimestampHigh(byte) 39`] = `58`;
+
+exports[`getTimestampHigh(byte) 40`] = `59`;
+
+exports[`getTimestampHigh(byte) 41`] = `60`;
+
+exports[`getTimestampHigh(byte) 42`] = `61`;
+
+exports[`getTimestampHigh(byte) 43`] = `62`;
+
+exports[`getTimestampHigh(byte) 44`] = `63`;
+
+exports[`getTimestampHigh(byte) 45`] = `0`;
+
+exports[`getTimestampHigh(byte) 46`] = `1`;
+
+exports[`getTimestampHigh(byte) 47`] = `2`;
+
+exports[`getTimestampHigh(byte) 48`] = `3`;
+
+exports[`getTimestampHigh(byte) 49`] = `4`;
+
+exports[`getTimestampHigh(byte) 50`] = `5`;
+
+exports[`getTimestampHigh(byte) 51`] = `6`;
+
+exports[`getTimestampHigh(byte) 52`] = `7`;
+
+exports[`getTimestampHigh(byte) 53`] = `8`;
+
+exports[`getTimestampHigh(byte) 54`] = `9`;
+
+exports[`getTimestampHigh(byte) 55`] = `10`;
+
+exports[`getTimestampHigh(byte) 56`] = `11`;
+
+exports[`getTimestampHigh(byte) 57`] = `12`;
+
+exports[`getTimestampHigh(byte) 58`] = `13`;
+
+exports[`getTimestampHigh(byte) 59`] = `14`;
+
+exports[`getTimestampHigh(byte) 60`] = `15`;
+
+exports[`getTimestampHigh(byte) 61`] = `16`;
+
+exports[`getTimestampHigh(byte) 62`] = `17`;
+
+exports[`getTimestampHigh(byte) 63`] = `18`;
+
+exports[`getTimestampHigh(byte) 64`] = `19`;
+
+exports[`getTimestampHigh(byte) 65`] = `20`;
+
+exports[`getTimestampHigh(byte) 66`] = `21`;
+
+exports[`getTimestampHigh(byte) 67`] = `22`;
+
+exports[`getTimestampHigh(byte) 68`] = `23`;
+
+exports[`getTimestampHigh(byte) 69`] = `24`;
+
+exports[`getTimestampHigh(byte) 70`] = `25`;
+
+exports[`getTimestampHigh(byte) 71`] = `26`;
+
+exports[`getTimestampHigh(byte) 72`] = `27`;
+
+exports[`getTimestampHigh(byte) 73`] = `28`;
+
+exports[`getTimestampHigh(byte) 74`] = `29`;
+
+exports[`getTimestampHigh(byte) 75`] = `30`;
+
+exports[`getTimestampHigh(byte) 76`] = `31`;
+
+exports[`getTimestampHigh(byte) 77`] = `32`;
+
+exports[`getTimestampHigh(byte) 78`] = `33`;
+
+exports[`getTimestampHigh(byte) 79`] = `34`;
+
+exports[`getTimestampHigh(byte) 80`] = `35`;
+
+exports[`getTimestampHigh(byte) 81`] = `36`;
+
+exports[`getTimestampHigh(byte) 82`] = `37`;
+
+exports[`getTimestampHigh(byte) 83`] = `38`;
+
+exports[`getTimestampHigh(byte) 84`] = `39`;
+
+exports[`getTimestampHigh(byte) 85`] = `40`;
+
+exports[`getTimestampHigh(byte) 86`] = `41`;
+
+exports[`getTimestampHigh(byte) 87`] = `42`;
+
+exports[`getTimestampHigh(byte) 88`] = `43`;
+
+exports[`getTimestampHigh(byte) 89`] = `44`;
+
+exports[`getTimestampHigh(byte) 90`] = `45`;
+
+exports[`getTimestampHigh(byte) 91`] = `46`;
+
+exports[`getTimestampHigh(byte) 92`] = `47`;
+
+exports[`getTimestampHigh(byte) 93`] = `48`;
+
+exports[`getTimestampHigh(byte) 94`] = `49`;
+
+exports[`getTimestampHigh(byte) 95`] = `50`;
+
+exports[`getTimestampHigh(byte) 96`] = `51`;
+
+exports[`getTimestampHigh(byte) 97`] = `52`;
+
+exports[`getTimestampHigh(byte) 98`] = `53`;
+
+exports[`getTimestampHigh(byte) 99`] = `54`;
+
+exports[`getTimestampHigh(byte) 100`] = `55`;
+
+exports[`getTimestampHigh(byte) 101`] = `56`;
+
+exports[`getTimestampHigh(byte) 102`] = `57`;
+
+exports[`getTimestampHigh(byte) 103`] = `58`;
+
+exports[`getTimestampHigh(byte) 104`] = `59`;
+
+exports[`getTimestampHigh(byte) 105`] = `60`;
+
+exports[`getTimestampHigh(byte) 106`] = `61`;
+
+exports[`getTimestampHigh(byte) 107`] = `62`;
+
+exports[`getTimestampHigh(byte) 108`] = `63`;
+
+exports[`getTimestampHigh(byte) 109`] = `0`;
+
+exports[`getTimestampHigh(byte) 110`] = `1`;
+
+exports[`getTimestampHigh(byte) 111`] = `2`;
+
+exports[`getTimestampHigh(byte) 112`] = `3`;
+
+exports[`getTimestampHigh(byte) 113`] = `4`;
+
+exports[`getTimestampHigh(byte) 114`] = `5`;
+
+exports[`getTimestampHigh(byte) 115`] = `6`;
+
+exports[`getTimestampHigh(byte) 116`] = `7`;
+
+exports[`getTimestampHigh(byte) 117`] = `8`;
+
+exports[`getTimestampHigh(byte) 118`] = `9`;
+
+exports[`getTimestampHigh(byte) 119`] = `10`;
+
+exports[`getTimestampHigh(byte) 120`] = `11`;
+
+exports[`getTimestampHigh(byte) 121`] = `12`;
+
+exports[`getTimestampHigh(byte) 122`] = `13`;
+
+exports[`getTimestampHigh(byte) 123`] = `14`;
+
+exports[`getTimestampHigh(byte) 124`] = `15`;
+
+exports[`getTimestampHigh(byte) 125`] = `16`;
+
+exports[`getTimestampHigh(byte) 126`] = `17`;
+
+exports[`getTimestampHigh(byte) 127`] = `18`;
+
+exports[`getTimestampHigh(byte) 128`] = `19`;
+
+exports[`getTimestampHigh(byte) 129`] = `20`;
+
+exports[`getTimestampHigh(byte) 130`] = `21`;
+
+exports[`getTimestampHigh(byte) 131`] = `22`;
+
+exports[`getTimestampHigh(byte) 132`] = `23`;
+
+exports[`getTimestampHigh(byte) 133`] = `24`;
+
+exports[`getTimestampHigh(byte) 134`] = `25`;
+
+exports[`getTimestampHigh(byte) 135`] = `26`;
+
+exports[`getTimestampHigh(byte) 136`] = `27`;
+
+exports[`getTimestampHigh(byte) 137`] = `28`;
+
+exports[`getTimestampHigh(byte) 138`] = `29`;
+
+exports[`getTimestampHigh(byte) 139`] = `30`;
+
+exports[`getTimestampHigh(byte) 140`] = `31`;
+
+exports[`getTimestampHigh(byte) 141`] = `32`;
+
+exports[`getTimestampHigh(byte) 142`] = `33`;
+
+exports[`getTimestampHigh(byte) 143`] = `34`;
+
+exports[`getTimestampHigh(byte) 144`] = `35`;
+
+exports[`getTimestampHigh(byte) 145`] = `36`;
+
+exports[`getTimestampHigh(byte) 146`] = `37`;
+
+exports[`getTimestampHigh(byte) 147`] = `38`;
+
+exports[`getTimestampHigh(byte) 148`] = `39`;
+
+exports[`getTimestampHigh(byte) 149`] = `40`;
+
+exports[`getTimestampHigh(byte) 150`] = `41`;
+
+exports[`getTimestampHigh(byte) 151`] = `42`;
+
+exports[`getTimestampHigh(byte) 152`] = `43`;
+
+exports[`getTimestampHigh(byte) 153`] = `44`;
+
+exports[`getTimestampHigh(byte) 154`] = `45`;
+
+exports[`getTimestampHigh(byte) 155`] = `46`;
+
+exports[`getTimestampHigh(byte) 156`] = `47`;
+
+exports[`getTimestampHigh(byte) 157`] = `48`;
+
+exports[`getTimestampHigh(byte) 158`] = `49`;
+
+exports[`getTimestampHigh(byte) 159`] = `50`;
+
+exports[`getTimestampHigh(byte) 160`] = `51`;
+
+exports[`getTimestampHigh(byte) 161`] = `52`;
+
+exports[`getTimestampHigh(byte) 162`] = `53`;
+
+exports[`getTimestampHigh(byte) 163`] = `54`;
+
+exports[`getTimestampHigh(byte) 164`] = `55`;
+
+exports[`getTimestampHigh(byte) 165`] = `56`;
+
+exports[`getTimestampHigh(byte) 166`] = `57`;
+
+exports[`getTimestampHigh(byte) 167`] = `58`;
+
+exports[`getTimestampHigh(byte) 168`] = `59`;
+
+exports[`getTimestampHigh(byte) 169`] = `60`;
+
+exports[`getTimestampHigh(byte) 170`] = `61`;
+
+exports[`getTimestampHigh(byte) 171`] = `62`;
+
+exports[`getTimestampHigh(byte) 172`] = `63`;
+
+exports[`getTimestampHigh(byte) 173`] = `0`;
+
+exports[`getTimestampHigh(byte) 174`] = `1`;
+
+exports[`getTimestampHigh(byte) 175`] = `2`;
+
+exports[`getTimestampHigh(byte) 176`] = `3`;
+
+exports[`getTimestampHigh(byte) 177`] = `4`;
+
+exports[`getTimestampHigh(byte) 178`] = `5`;
+
+exports[`getTimestampHigh(byte) 179`] = `6`;
+
+exports[`getTimestampHigh(byte) 180`] = `7`;
+
+exports[`getTimestampHigh(byte) 181`] = `8`;
+
+exports[`getTimestampHigh(byte) 182`] = `9`;
+
+exports[`getTimestampHigh(byte) 183`] = `10`;
+
+exports[`getTimestampHigh(byte) 184`] = `11`;
+
+exports[`getTimestampHigh(byte) 185`] = `12`;
+
+exports[`getTimestampHigh(byte) 186`] = `13`;
+
+exports[`getTimestampHigh(byte) 187`] = `14`;
+
+exports[`getTimestampHigh(byte) 188`] = `15`;
+
+exports[`getTimestampHigh(byte) 189`] = `16`;
+
+exports[`getTimestampHigh(byte) 190`] = `17`;
+
+exports[`getTimestampHigh(byte) 191`] = `18`;
+
+exports[`getTimestampHigh(byte) 192`] = `19`;
+
+exports[`getTimestampHigh(byte) 193`] = `20`;
+
+exports[`getTimestampHigh(byte) 194`] = `21`;
+
+exports[`getTimestampHigh(byte) 195`] = `22`;
+
+exports[`getTimestampHigh(byte) 196`] = `23`;
+
+exports[`getTimestampHigh(byte) 197`] = `24`;
+
+exports[`getTimestampHigh(byte) 198`] = `25`;
+
+exports[`getTimestampHigh(byte) 199`] = `26`;
+
+exports[`getTimestampHigh(byte) 200`] = `27`;
+
+exports[`getTimestampHigh(byte) 201`] = `28`;
+
+exports[`getTimestampHigh(byte) 202`] = `29`;
+
+exports[`getTimestampHigh(byte) 203`] = `30`;
+
+exports[`getTimestampHigh(byte) 204`] = `31`;
+
+exports[`getTimestampHigh(byte) 205`] = `32`;
+
+exports[`getTimestampHigh(byte) 206`] = `33`;
+
+exports[`getTimestampHigh(byte) 207`] = `34`;
+
+exports[`getTimestampHigh(byte) 208`] = `35`;
+
+exports[`getTimestampHigh(byte) 209`] = `36`;
+
+exports[`getTimestampHigh(byte) 210`] = `37`;
+
+exports[`getTimestampHigh(byte) 211`] = `38`;
+
+exports[`getTimestampHigh(byte) 212`] = `39`;
+
+exports[`getTimestampHigh(byte) 213`] = `40`;
+
+exports[`getTimestampHigh(byte) 214`] = `41`;
+
+exports[`getTimestampHigh(byte) 215`] = `42`;
+
+exports[`getTimestampHigh(byte) 216`] = `43`;
+
+exports[`getTimestampHigh(byte) 217`] = `44`;
+
+exports[`getTimestampHigh(byte) 218`] = `45`;
+
+exports[`getTimestampHigh(byte) 219`] = `46`;
+
+exports[`getTimestampHigh(byte) 220`] = `47`;
+
+exports[`getTimestampHigh(byte) 221`] = `48`;
+
+exports[`getTimestampHigh(byte) 222`] = `49`;
+
+exports[`getTimestampHigh(byte) 223`] = `50`;
+
+exports[`getTimestampHigh(byte) 224`] = `51`;
+
+exports[`getTimestampHigh(byte) 225`] = `52`;
+
+exports[`getTimestampHigh(byte) 226`] = `53`;
+
+exports[`getTimestampHigh(byte) 227`] = `54`;
+
+exports[`getTimestampHigh(byte) 228`] = `55`;
+
+exports[`getTimestampHigh(byte) 229`] = `56`;
+
+exports[`getTimestampHigh(byte) 230`] = `57`;
+
+exports[`getTimestampHigh(byte) 231`] = `58`;
+
+exports[`getTimestampHigh(byte) 232`] = `59`;
+
+exports[`getTimestampHigh(byte) 233`] = `60`;
+
+exports[`getTimestampHigh(byte) 234`] = `61`;
+
+exports[`getTimestampHigh(byte) 235`] = `62`;
+
+exports[`getTimestampHigh(byte) 236`] = `63`;
+
+exports[`getTimestampHigh(byte) 237`] = `0`;
+
+exports[`getTimestampHigh(byte) 238`] = `1`;
+
+exports[`getTimestampHigh(byte) 239`] = `2`;
+
+exports[`getTimestampHigh(byte) 240`] = `3`;
+
+exports[`getTimestampHigh(byte) 241`] = `4`;
+
+exports[`getTimestampHigh(byte) 242`] = `5`;
+
+exports[`getTimestampHigh(byte) 243`] = `6`;
+
+exports[`getTimestampHigh(byte) 244`] = `7`;
+
+exports[`getTimestampHigh(byte) 245`] = `8`;
+
+exports[`getTimestampHigh(byte) 246`] = `9`;
+
+exports[`getTimestampHigh(byte) 247`] = `10`;
+
+exports[`getTimestampHigh(byte) 248`] = `11`;
+
+exports[`getTimestampHigh(byte) 249`] = `12`;
+
+exports[`getTimestampHigh(byte) 250`] = `13`;
+
+exports[`getTimestampHigh(byte) 251`] = `14`;
+
+exports[`getTimestampHigh(byte) 252`] = `15`;
+
+exports[`getTimestampHigh(byte) 253`] = `16`;
+
+exports[`getTimestampHigh(byte) 254`] = `17`;
+
+exports[`getTimestampHigh(byte) 255`] = `18`;
+
+exports[`getTimestampHigh(byte) 256`] = `19`;
+
+exports[`getTimestampHigh(byte) 257`] = `20`;
+
+exports[`getTimestampHigh(byte) 258`] = `21`;
+
+exports[`getTimestampHigh(byte) 259`] = `22`;
+
+exports[`getTimestampHigh(byte) 260`] = `23`;
+
+exports[`getTimestampHigh(byte) 261`] = `24`;
+
+exports[`getTimestampHigh(byte) 262`] = `25`;
+
+exports[`getTimestampHigh(byte) 263`] = `26`;
+
+exports[`getTimestampHigh(byte) 264`] = `27`;
+
+exports[`getTimestampHigh(byte) 265`] = `28`;
+
+exports[`getTimestampHigh(byte) 266`] = `29`;
+
+exports[`getTimestampHigh(byte) 267`] = `30`;
+
+exports[`getTimestampHigh(byte) 268`] = `31`;
+
+exports[`getTimestampHigh(byte) 269`] = `32`;
+
+exports[`getTimestampHigh(byte) 270`] = `33`;
+
+exports[`getTimestampHigh(byte) 271`] = `34`;
+
+exports[`getTimestampHigh(byte) 272`] = `35`;
+
+exports[`getTimestampHigh(byte) 273`] = `36`;
+
+exports[`getTimestampHigh(byte) 274`] = `37`;
+
+exports[`getTimestampHigh(byte) 275`] = `38`;
+
+exports[`getTimestampHigh(byte) 276`] = `39`;
+
+exports[`getTimestampHigh(byte) 277`] = `40`;
+
+exports[`getTimestampHigh(byte) 278`] = `41`;
+
+exports[`getTimestampHigh(byte) 279`] = `42`;
+
+exports[`getTimestampHigh(byte) 280`] = `43`;
+
+exports[`getTimestampHigh(byte) 281`] = `44`;
+
+exports[`getTimestampHigh(byte) 282`] = `45`;
+
+exports[`getTimestampHigh(byte) 283`] = `46`;
+
+exports[`getTimestampHigh(byte) 284`] = `47`;
+
+exports[`getTimestampHigh(byte) 285`] = `48`;
+
+exports[`getTimestampHigh(byte) 286`] = `49`;
+
+exports[`getTimestampHigh(byte) 287`] = `50`;
+
+exports[`getTimestampHigh(byte) 288`] = `51`;
+
+exports[`getTimestampHigh(byte) 289`] = `52`;
+
+exports[`getTimestampHigh(byte) 290`] = `53`;
+
+exports[`getTimestampHigh(byte) 291`] = `54`;
+
+exports[`getTimestampHigh(byte) 292`] = `55`;
+
+exports[`getTimestampHigh(byte) 293`] = `56`;
+
+exports[`getTimestampHigh(byte) 294`] = `57`;
+
+exports[`getTimestampHigh(byte) 295`] = `58`;
+
+exports[`getTimestampHigh(byte) 296`] = `59`;
+
+exports[`getTimestampHigh(byte) 297`] = `60`;
+
+exports[`getTimestampHigh(byte) 298`] = `61`;
+
+exports[`getTimestampHigh(byte) 299`] = `62`;
+
+exports[`getTimestampHigh(byte) 300`] = `63`;
+
+exports[`getTimestampHigh(byte) 301`] = `0`;
+
+exports[`getTimestampHigh(byte) 302`] = `1`;
+
+exports[`getTimestampHigh(byte) 303`] = `2`;
+
+exports[`getTimestampHigh(byte) 304`] = `3`;
+
+exports[`getTimestampHigh(byte) 305`] = `4`;
+
+exports[`getTimestampHigh(byte) 306`] = `5`;
+
+exports[`getTimestampHigh(byte) 307`] = `6`;
+
+exports[`getTimestampHigh(byte) 308`] = `7`;
+
+exports[`getTimestampHigh(byte) 309`] = `8`;
+
+exports[`getTimestampHigh(byte) 310`] = `9`;
+
+exports[`getTimestampHigh(byte) 311`] = `10`;
+
+exports[`getTimestampHigh(byte) 312`] = `11`;
+
+exports[`getTimestampHigh(byte) 313`] = `12`;
+
+exports[`getTimestampHigh(byte) 314`] = `13`;
+
+exports[`getTimestampHigh(byte) 315`] = `14`;
+
+exports[`getTimestampHigh(byte) 316`] = `15`;
+
+exports[`getTimestampHigh(byte) 317`] = `16`;
+
+exports[`getTimestampHigh(byte) 318`] = `17`;
+
+exports[`getTimestampHigh(byte) 319`] = `18`;
+
+exports[`getTimestampHigh(byte) 320`] = `19`;
+
+exports[`getTimestampHigh(byte) 321`] = `20`;
+
+exports[`getTimestampHigh(byte) 322`] = `21`;
+
+exports[`getTimestampHigh(byte) 323`] = `22`;
+
+exports[`getTimestampHigh(byte) 324`] = `23`;
+
+exports[`getTimestampHigh(byte) 325`] = `24`;
+
+exports[`getTimestampHigh(byte) 326`] = `25`;
+
+exports[`getTimestampHigh(byte) 327`] = `26`;
+
+exports[`getTimestampHigh(byte) 328`] = `27`;
+
+exports[`getTimestampHigh(byte) 329`] = `28`;
+
+exports[`getTimestampHigh(byte) 330`] = `29`;
+
+exports[`getTimestampHigh(byte) 331`] = `30`;
+
+exports[`getTimestampHigh(byte) 332`] = `31`;
+
+exports[`getTimestampHigh(byte) 333`] = `32`;
+
+exports[`getTimestampHigh(byte) 334`] = `33`;
+
+exports[`getTimestampHigh(byte) 335`] = `34`;
+
+exports[`getTimestampHigh(byte) 336`] = `35`;
+
+exports[`getTimestampHigh(byte) 337`] = `36`;
+
+exports[`getTimestampHigh(byte) 338`] = `37`;
+
+exports[`getTimestampHigh(byte) 339`] = `38`;
+
+exports[`getTimestampHigh(byte) 340`] = `39`;
+
+exports[`getTimestampHigh(byte) 341`] = `40`;
+
+exports[`getTimestampHigh(byte) 342`] = `41`;
+
+exports[`getTimestampHigh(byte) 343`] = `42`;
+
+exports[`getTimestampHigh(byte) 344`] = `43`;
+
+exports[`getTimestampHigh(byte) 345`] = `44`;
+
+exports[`getTimestampHigh(byte) 346`] = `45`;
+
+exports[`getTimestampHigh(byte) 347`] = `46`;
+
+exports[`getTimestampHigh(byte) 348`] = `47`;
+
+exports[`getTimestampHigh(byte) 349`] = `48`;
+
+exports[`getTimestampHigh(byte) 350`] = `49`;
+
+exports[`getTimestampHigh(byte) 351`] = `50`;
+
+exports[`getTimestampHigh(byte) 352`] = `51`;
+
+exports[`getTimestampHigh(byte) 353`] = `52`;
+
+exports[`getTimestampHigh(byte) 354`] = `53`;
+
+exports[`getTimestampHigh(byte) 355`] = `54`;
+
+exports[`getTimestampHigh(byte) 356`] = `55`;
+
+exports[`getTimestampHigh(byte) 357`] = `56`;
+
+exports[`getTimestampHigh(byte) 358`] = `57`;
+
+exports[`getTimestampHigh(byte) 359`] = `58`;
+
+exports[`getTimestampHigh(byte) 360`] = `59`;
+
+exports[`getTimestampHigh(byte) 361`] = `60`;
+
+exports[`getTimestampHigh(byte) 362`] = `61`;
+
+exports[`getTimestampHigh(byte) 363`] = `62`;
+
+exports[`getTimestampHigh(byte) 364`] = `63`;
+
+exports[`getTimestampHigh(byte) 365`] = `0`;
+
+exports[`getTimestampHigh(byte) 366`] = `1`;
+
+exports[`getTimestampHigh(byte) 367`] = `2`;
+
+exports[`getTimestampHigh(byte) 368`] = `3`;
+
+exports[`getTimestampHigh(byte) 369`] = `4`;
+
+exports[`getTimestampHigh(byte) 370`] = `5`;
+
+exports[`getTimestampHigh(byte) 371`] = `6`;
+
+exports[`getTimestampHigh(byte) 372`] = `7`;
+
+exports[`getTimestampHigh(byte) 373`] = `8`;
+
+exports[`getTimestampHigh(byte) 374`] = `9`;
+
+exports[`getTimestampHigh(byte) 375`] = `10`;
+
+exports[`getTimestampHigh(byte) 376`] = `11`;
+
+exports[`getTimestampHigh(byte) 377`] = `12`;
+
+exports[`getTimestampHigh(byte) 378`] = `13`;
+
+exports[`getTimestampHigh(byte) 379`] = `14`;
+
+exports[`getTimestampHigh(byte) 380`] = `15`;
+
+exports[`getTimestampHigh(byte) 381`] = `16`;
+
+exports[`getTimestampHigh(byte) 382`] = `17`;
+
+exports[`getTimestampHigh(byte) 383`] = `18`;
+
+exports[`getTimestampHigh(byte) 384`] = `19`;
+
+exports[`getTimestampHigh(byte) 385`] = `20`;
+
+exports[`getTimestampHigh(byte) 386`] = `21`;
+
+exports[`getTimestampHigh(byte) 387`] = `22`;
+
+exports[`getTimestampHigh(byte) 388`] = `23`;
+
+exports[`getTimestampHigh(byte) 389`] = `24`;
+
+exports[`getTimestampHigh(byte) 390`] = `25`;
+
+exports[`getTimestampHigh(byte) 391`] = `26`;
+
+exports[`getTimestampHigh(byte) 392`] = `27`;
+
+exports[`getTimestampHigh(byte) 393`] = `28`;
+
+exports[`getTimestampHigh(byte) 394`] = `29`;
+
+exports[`getTimestampHigh(byte) 395`] = `30`;
+
+exports[`getTimestampHigh(byte) 396`] = `31`;
+
+exports[`getTimestampHigh(byte) 397`] = `32`;
+
+exports[`getTimestampHigh(byte) 398`] = `33`;
+
+exports[`getTimestampHigh(byte) 399`] = `34`;
+
+exports[`getTimestampHigh(byte) 400`] = `35`;
+
+exports[`getTimestampHigh(byte) 401`] = `36`;
+
+exports[`getTimestampHigh(byte) 402`] = `37`;
+
+exports[`getTimestampHigh(byte) 403`] = `38`;
+
+exports[`getTimestampHigh(byte) 404`] = `39`;
+
+exports[`getTimestampHigh(byte) 405`] = `40`;
+
+exports[`getTimestampHigh(byte) 406`] = `41`;
+
+exports[`getTimestampHigh(byte) 407`] = `42`;
+
+exports[`getTimestampHigh(byte) 408`] = `43`;
+
+exports[`getTimestampHigh(byte) 409`] = `44`;
+
+exports[`getTimestampHigh(byte) 410`] = `45`;
+
+exports[`getTimestampHigh(byte) 411`] = `46`;
+
+exports[`getTimestampHigh(byte) 412`] = `47`;
+
+exports[`getTimestampHigh(byte) 413`] = `48`;
+
+exports[`getTimestampHigh(byte) 414`] = `49`;
+
+exports[`getTimestampHigh(byte) 415`] = `50`;
+
+exports[`getTimestampHigh(byte) 416`] = `51`;
+
+exports[`getTimestampHigh(byte) 417`] = `52`;
+
+exports[`getTimestampHigh(byte) 418`] = `53`;
+
+exports[`getTimestampHigh(byte) 419`] = `54`;
+
+exports[`getTimestampHigh(byte) 420`] = `55`;
+
+exports[`getTimestampHigh(byte) 421`] = `56`;
+
+exports[`getTimestampHigh(byte) 422`] = `57`;
+
+exports[`getTimestampHigh(byte) 423`] = `58`;
+
+exports[`getTimestampHigh(byte) 424`] = `59`;
+
+exports[`getTimestampHigh(byte) 425`] = `60`;
+
+exports[`getTimestampHigh(byte) 426`] = `61`;
+
+exports[`getTimestampHigh(byte) 427`] = `62`;
+
+exports[`getTimestampHigh(byte) 428`] = `63`;
+
+exports[`getTimestampHigh(byte) 429`] = `0`;
+
+exports[`getTimestampHigh(byte) 430`] = `1`;
+
+exports[`getTimestampHigh(byte) 431`] = `2`;
+
+exports[`getTimestampHigh(byte) 432`] = `3`;
+
+exports[`getTimestampHigh(byte) 433`] = `4`;
+
+exports[`getTimestampHigh(byte) 434`] = `5`;
+
+exports[`getTimestampHigh(byte) 435`] = `6`;
+
+exports[`getTimestampHigh(byte) 436`] = `7`;
+
+exports[`getTimestampHigh(byte) 437`] = `8`;
+
+exports[`getTimestampHigh(byte) 438`] = `9`;
+
+exports[`getTimestampHigh(byte) 439`] = `10`;
+
+exports[`getTimestampHigh(byte) 440`] = `11`;
+
+exports[`getTimestampHigh(byte) 441`] = `12`;
+
+exports[`getTimestampHigh(byte) 442`] = `13`;
+
+exports[`getTimestampHigh(byte) 443`] = `14`;
+
+exports[`getTimestampHigh(byte) 444`] = `15`;
+
+exports[`getTimestampHigh(byte) 445`] = `16`;
+
+exports[`getTimestampHigh(byte) 446`] = `17`;
+
+exports[`getTimestampHigh(byte) 447`] = `18`;
+
+exports[`getTimestampHigh(byte) 448`] = `19`;
+
+exports[`getTimestampHigh(byte) 449`] = `20`;
+
+exports[`getTimestampHigh(byte) 450`] = `21`;
+
+exports[`getTimestampHigh(byte) 451`] = `22`;
+
+exports[`getTimestampHigh(byte) 452`] = `23`;
+
+exports[`getTimestampHigh(byte) 453`] = `24`;
+
+exports[`getTimestampHigh(byte) 454`] = `25`;
+
+exports[`getTimestampHigh(byte) 455`] = `26`;
+
+exports[`getTimestampHigh(byte) 456`] = `27`;
+
+exports[`getTimestampHigh(byte) 457`] = `28`;
+
+exports[`getTimestampHigh(byte) 458`] = `29`;
+
+exports[`getTimestampHigh(byte) 459`] = `30`;
+
+exports[`getTimestampHigh(byte) 460`] = `31`;
+
+exports[`getTimestampHigh(byte) 461`] = `32`;
+
+exports[`getTimestampHigh(byte) 462`] = `33`;
+
+exports[`getTimestampHigh(byte) 463`] = `34`;
+
+exports[`getTimestampHigh(byte) 464`] = `35`;
+
+exports[`getTimestampHigh(byte) 465`] = `36`;
+
+exports[`getTimestampHigh(byte) 466`] = `37`;
+
+exports[`getTimestampHigh(byte) 467`] = `38`;
+
+exports[`getTimestampHigh(byte) 468`] = `39`;
+
+exports[`getTimestampHigh(byte) 469`] = `40`;
+
+exports[`getTimestampHigh(byte) 470`] = `41`;
+
+exports[`getTimestampHigh(byte) 471`] = `42`;
+
+exports[`getTimestampHigh(byte) 472`] = `43`;
+
+exports[`getTimestampHigh(byte) 473`] = `44`;
+
+exports[`getTimestampHigh(byte) 474`] = `45`;
+
+exports[`getTimestampHigh(byte) 475`] = `46`;
+
+exports[`getTimestampHigh(byte) 476`] = `47`;
+
+exports[`getTimestampHigh(byte) 477`] = `48`;
+
+exports[`getTimestampHigh(byte) 478`] = `49`;
+
+exports[`getTimestampHigh(byte) 479`] = `50`;
+
+exports[`getTimestampHigh(byte) 480`] = `51`;
+
+exports[`getTimestampHigh(byte) 481`] = `52`;
+
+exports[`getTimestampHigh(byte) 482`] = `53`;
+
+exports[`getTimestampHigh(byte) 483`] = `54`;
+
+exports[`getTimestampHigh(byte) 484`] = `55`;
+
+exports[`getTimestampHigh(byte) 485`] = `56`;
+
+exports[`getTimestampHigh(byte) 486`] = `57`;
+
+exports[`getTimestampHigh(byte) 487`] = `58`;
+
+exports[`getTimestampHigh(byte) 488`] = `59`;
+
+exports[`getTimestampHigh(byte) 489`] = `60`;
+
+exports[`getTimestampHigh(byte) 490`] = `61`;
+
+exports[`getTimestampHigh(byte) 491`] = `62`;
+
+exports[`getTimestampHigh(byte) 492`] = `63`;
+
+exports[`getTimestampHigh(byte) 493`] = `0`;
+
+exports[`getTimestampHigh(byte) 494`] = `1`;
+
+exports[`getTimestampHigh(byte) 495`] = `2`;
+
+exports[`getTimestampHigh(byte) 496`] = `3`;
+
+exports[`getTimestampHigh(byte) 497`] = `4`;
+
+exports[`getTimestampHigh(byte) 498`] = `5`;
+
+exports[`getTimestampHigh(byte) 499`] = `6`;
+
+exports[`getTimestampHigh(byte) 500`] = `7`;
+
+exports[`getTimestampHigh(byte) 501`] = `8`;
+
+exports[`getTimestampHigh(byte) 502`] = `9`;
+
+exports[`getTimestampHigh(byte) 503`] = `10`;
+
+exports[`getTimestampHigh(byte) 504`] = `11`;
+
+exports[`getTimestampHigh(byte) 505`] = `12`;
+
+exports[`getTimestampHigh(byte) 506`] = `13`;
+
+exports[`getTimestampHigh(byte) 507`] = `14`;
+
+exports[`getTimestampHigh(byte) 508`] = `15`;
+
+exports[`getTimestampHigh(byte) 509`] = `16`;
+
+exports[`getTimestampHigh(byte) 510`] = `17`;
+
+exports[`getTimestampHigh(byte) 511`] = `18`;
+
+exports[`getTimestampHigh(byte) 512`] = `19`;
+
+exports[`getTimestampHigh(byte) 513`] = `20`;
+
+exports[`getTimestampHigh(byte) 514`] = `21`;
+
+exports[`getTimestampHigh(byte) 515`] = `22`;
+
+exports[`getTimestampHigh(byte) 516`] = `23`;
+
+exports[`getTimestampHigh(byte) 517`] = `24`;
+
+exports[`getTimestampHigh(byte) 518`] = `25`;
+
+exports[`getTimestampHigh(byte) 519`] = `26`;
+
+exports[`getTimestampHigh(byte) 520`] = `27`;
+
+exports[`getTimestampHigh(byte) 521`] = `28`;
+
+exports[`getTimestampHigh(byte) 522`] = `29`;
+
+exports[`getTimestampHigh(byte) 523`] = `30`;
+
+exports[`getTimestampHigh(byte) 524`] = `31`;
+
+exports[`getTimestampHigh(byte) 525`] = `32`;
+
+exports[`getTimestampHigh(byte) 526`] = `33`;
+
+exports[`getTimestampHigh(byte) 527`] = `34`;
+
+exports[`getTimestampHigh(byte) 528`] = `35`;
+
+exports[`getTimestampHigh(byte) 529`] = `36`;
+
+exports[`getTimestampHigh(byte) 530`] = `37`;
+
+exports[`getTimestampHigh(byte) 531`] = `38`;
+
+exports[`getTimestampHigh(byte) 532`] = `39`;
+
+exports[`getTimestampHigh(byte) 533`] = `40`;
+
+exports[`getTimestampHigh(byte) 534`] = `41`;
+
+exports[`getTimestampHigh(byte) 535`] = `42`;
+
+exports[`getTimestampHigh(byte) 536`] = `43`;
+
+exports[`getTimestampHigh(byte) 537`] = `44`;
+
+exports[`getTimestampHigh(byte) 538`] = `45`;
+
+exports[`getTimestampHigh(byte) 539`] = `46`;
+
+exports[`getTimestampHigh(byte) 540`] = `47`;
+
+exports[`getTimestampHigh(byte) 541`] = `48`;
+
+exports[`getTimestampHigh(byte) 542`] = `49`;
+
+exports[`getTimestampHigh(byte) 543`] = `50`;
+
+exports[`getTimestampHigh(byte) 544`] = `51`;
+
+exports[`getTimestampHigh(byte) 545`] = `52`;
+
+exports[`getTimestampHigh(byte) 546`] = `53`;
+
+exports[`getTimestampHigh(byte) 547`] = `54`;
+
+exports[`getTimestampHigh(byte) 548`] = `55`;
+
+exports[`getTimestampHigh(byte) 549`] = `56`;
+
+exports[`getTimestampHigh(byte) 550`] = `57`;
+
+exports[`getTimestampHigh(byte) 551`] = `58`;
+
+exports[`getTimestampHigh(byte) 552`] = `59`;
+
+exports[`getTimestampHigh(byte) 553`] = `60`;
+
+exports[`getTimestampHigh(byte) 554`] = `61`;
+
+exports[`getTimestampHigh(byte) 555`] = `62`;
+
+exports[`getTimestampHigh(byte) 556`] = `63`;
+
+exports[`getTimestampHigh(byte) 557`] = `0`;
+
+exports[`getTimestampHigh(byte) 558`] = `1`;
+
+exports[`getTimestampHigh(byte) 559`] = `2`;
+
+exports[`getTimestampHigh(byte) 560`] = `3`;
+
+exports[`getTimestampHigh(byte) 561`] = `4`;
+
+exports[`getTimestampHigh(byte) 562`] = `5`;
+
+exports[`getTimestampHigh(byte) 563`] = `6`;
+
+exports[`getTimestampHigh(byte) 564`] = `7`;
+
+exports[`getTimestampHigh(byte) 565`] = `8`;
+
+exports[`getTimestampHigh(byte) 566`] = `9`;
+
+exports[`getTimestampHigh(byte) 567`] = `10`;
+
+exports[`getTimestampHigh(byte) 568`] = `11`;
+
+exports[`getTimestampHigh(byte) 569`] = `12`;
+
+exports[`getTimestampHigh(byte) 570`] = `13`;
+
+exports[`getTimestampHigh(byte) 571`] = `14`;
+
+exports[`getTimestampHigh(byte) 572`] = `15`;
+
+exports[`getTimestampHigh(byte) 573`] = `16`;
+
+exports[`getTimestampHigh(byte) 574`] = `17`;
+
+exports[`getTimestampHigh(byte) 575`] = `18`;
+
+exports[`getTimestampHigh(byte) 576`] = `19`;
+
+exports[`getTimestampHigh(byte) 577`] = `20`;
+
+exports[`getTimestampHigh(byte) 578`] = `21`;
+
+exports[`getTimestampHigh(byte) 579`] = `22`;
+
+exports[`getTimestampHigh(byte) 580`] = `23`;
+
+exports[`getTimestampHigh(byte) 581`] = `24`;
+
+exports[`getTimestampHigh(byte) 582`] = `25`;
+
+exports[`getTimestampHigh(byte) 583`] = `26`;
+
+exports[`getTimestampHigh(byte) 584`] = `27`;
+
+exports[`getTimestampHigh(byte) 585`] = `28`;
+
+exports[`getTimestampHigh(byte) 586`] = `29`;
+
+exports[`getTimestampHigh(byte) 587`] = `30`;
+
+exports[`getTimestampHigh(byte) 588`] = `31`;
+
+exports[`getTimestampHigh(byte) 589`] = `32`;
+
+exports[`getTimestampHigh(byte) 590`] = `33`;
+
+exports[`getTimestampHigh(byte) 591`] = `34`;
+
+exports[`getTimestampHigh(byte) 592`] = `35`;
+
+exports[`getTimestampHigh(byte) 593`] = `36`;
+
+exports[`getTimestampHigh(byte) 594`] = `37`;
+
+exports[`getTimestampHigh(byte) 595`] = `38`;
+
+exports[`getTimestampHigh(byte) 596`] = `39`;
+
+exports[`getTimestampHigh(byte) 597`] = `40`;
+
+exports[`getTimestampHigh(byte) 598`] = `41`;
+
+exports[`getTimestampHigh(byte) 599`] = `42`;
+
+exports[`getTimestampHigh(byte) 600`] = `43`;

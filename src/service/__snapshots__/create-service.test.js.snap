@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createService(characteristic) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      Object {
+        "characteristics": Array [
+          [Function],
+        ],
+        "uuid": "03B80E5A-EDE8-4B33-A751-6CE34EC4C700",
+      },
+    ],
+  ],
+  "instances": Array [
+    PrimaryService {
+      "addListener": [Function],
+      "emit": [Function],
+      "eventNames": [Function],
+      "getMaxListeners": [Function],
+      "listenerCount": [Function],
+      "listeners": [Function],
+      "once": [Function],
+      "prependListener": [Function],
+      "prependOnceListener": [Function],
+      "removeAllListeners": [Function],
+      "removeListener": [Function],
+      "setMaxListeners": [Function],
+      "toString": [Function],
+    },
+  ],
+}
+`;
+
+exports[`createService(characteristic) 2`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`createService(characteristic) 3`] = `
+PrimaryService {
+  "addListener": [Function],
+  "emit": [Function],
+  "eventNames": [Function],
+  "getMaxListeners": [Function],
+  "listenerCount": [Function],
+  "listeners": [Function],
+  "once": [Function],
+  "prependListener": [Function],
+  "prependOnceListener": [Function],
+  "removeAllListeners": [Function],
+  "removeListener": [Function],
+  "setMaxListeners": [Function],
+  "toString": [Function],
+}
+`;
