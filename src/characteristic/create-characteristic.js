@@ -1,14 +1,11 @@
 // @flow
 import Characteristic from 'bleno/lib/characteristic';
 import { MIDI_IO_CHARACTERISTIC_UID } from '../constants';
-import onIndicate from './on-indicate';
-import onNotify from './on-notify';
+import defaultHandler from '../util/default-handler';
 import onReadRequest from './on-read-request';
-import onSubscribe from './on-subscribe';
-import onUnsubscribe from './on-unsubscribe';
 import onWriteRequest from './on-write-request';
 
-export default () => {
+export default (onIncomingPacket: Function) => {
   const characteristic = new Characteristic({
     uuid: MIDI_IO_CHARACTERISTIC_UID, // or 'fff1' for 16-bit
     properties: ['read', 'write', 'writeWithoutResponse', 'notify'], // can be a combination of 'read', 'write', 'writeWithoutResponse', 'notify', 'indicate'
@@ -17,12 +14,14 @@ export default () => {
     descriptors: [
       // see Descriptor for data type
     ],
-    onReadRequest: onReadRequest, // optional read request handler, function(offset, callback) { ... }
-    onWriteRequest: onWriteRequest, // optional write request handler, function(data, offset, withoutResponse, callback) { ...}
-    onSubscribe: onSubscribe, // optional notify/indicate subscribe handler, function(maxValueSize, updateValueCallback) { ...}
-    onUnsubscribe: onUnsubscribe, // optional notify/indicate unsubscribe handler, function() { ...}
-    onNotify: onNotify, // optional notify sent handler, function() { ...}
-    onIndicate: onIndicate // optional indicate confirmation received handler, function() { ...}
+    onReadRequest: onReadRequest,
+    onWriteRequest: onWriteRequest.bind(null, onIncomingPacket)
   });
+  [
+    'indicate',
+    'notify',
+    'subscribe',
+    'unsubscribe'
+  ].forEach(name => characteristic.on(name, defaultHandler(name)));
   return characteristic;
 };

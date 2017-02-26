@@ -5,11 +5,7 @@ Array [
   Array [
     Object {
       "descriptors": Array [],
-      "onIndicate": [Function],
-      "onNotify": [Function],
       "onReadRequest": [Function],
-      "onSubscribe": [Function],
-      "onUnsubscribe": [Function],
       "onWriteRequest": [Function],
       "properties": Array [
         "read",

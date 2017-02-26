@@ -15,7 +15,7 @@
     "format": "prettier --write --single-quote --parser 'flow' 'src/**/*.js'",
     "lint": "eslint .",
     "prepublish": "npm run build",
-    "start": "babel-node ./index.js",
+    "start": "./scripts/cli-babel.js peripheral",
     "test": "jest",
     "transpile": "babel -d lib src"
   },

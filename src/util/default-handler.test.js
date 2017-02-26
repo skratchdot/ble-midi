@@ -1,5 +1,5 @@
 /* eslint-env jest */
-jest.mock('../util/logger');
+jest.mock('./logger');
 
 let mockLog;
 let defaultHandler;

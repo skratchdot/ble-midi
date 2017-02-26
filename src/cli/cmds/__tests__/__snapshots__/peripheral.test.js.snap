@@ -25,18 +25,69 @@ Object {
         "type": "string",
       },
     ],
+    Array [
+      "o",
+      Object {
+        "alias": "midi-out",
+        "describe": "The midi out device number",
+        "requiresArg": true,
+        "type": "number",
+      },
+    ],
   ],
   "instances": Array [
+    [Function],
     [Function],
   ],
 }
 `;
 
-exports[`handler(argv) 1`] = `
+exports[`handler(argv) - error 1`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`handler(argv) - error 2`] = `
 Object {
   "calls": Array [
     Array [
-      "MOCK_NAME",
+      "MOCK_MIDI_OUT_2",
+    ],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;
+
+exports[`handler(argv) - error 3`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`handler(argv) - error 4`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`handler(argv) - no error 1`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`handler(argv) - no error 2`] = `
+Object {
+  "calls": Array [
+    Array [
+      "MOCK_MIDI_OUT_1",
     ],
   ],
   "instances": Array [

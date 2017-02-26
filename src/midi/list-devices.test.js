@@ -4,8 +4,9 @@ jest.mock('midi', () => {
   const midi = jest.fn();
   midi.getPortCount = () => 2;
   midi.getPortName = portNum => `MOCK_DEVICE_${portNum}`;
-  midi.openVirtualPort = () => {};
-  midi.closePort = () => {};
+  midi.openVirtualPort = jest.fn();
+  midi.openPort = jest.fn();
+  midi.closePort = jest.fn();
   midi.__mockBleno__ = true;
   return {
     input: () => midi,

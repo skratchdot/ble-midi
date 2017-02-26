@@ -6,14 +6,14 @@ import printBuffer from '../util/print-buffer';
 const { RESULT_UNLIKELY_ERROR } = Characteristic;
 
 export default (
+  onIncomingPacket: Function,
   data: Buffer,
   offset: number,
   withoutResponse: boolean,
   callback: Function
 ) => {
   log(
-    'onWriteRequest:',
-    `
+    `onWriteRequest:
              data: ${data.toString('hex')}
 ${`\n${printBuffer(data)}`.replace(/\n/gi, '\n                   ')}
       data.length: ${data.length}
@@ -23,8 +23,10 @@ ${`\n${printBuffer(data)}`.replace(/\n/gi, '\n                   ')}
   );
   if (!withoutResponse || offset !== 0 || data.length === 0) {
     callback(RESULT_UNLIKELY_ERROR);
-  } else {
+  }
+  if (offset === 0 && data.length > 0) {
     const info = parsePacket(data);
     log('parsedPacket', info);
+    onIncomingPacket(info);
   }
 };

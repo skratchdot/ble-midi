@@ -24,6 +24,15 @@ test('should createPeripheral(name)', () => {
   expect(peripheral.__mockBleno__).toEqual(true);
 });
 
+test('should createPeripheral(name, onIncomingPacket)', () => {
+  const name = jest.fn();
+  const onIncomingPacket = jest.fn();
+  const peripheral = createPeripheral(name, onIncomingPacket);
+  expect(mockBleno.mock).toMatchSnapshot();
+  expect(mockBleno.on.mock).toMatchSnapshot();
+  expect(peripheral.__mockBleno__).toEqual(true);
+});
+
 test('should createPeripheral with default name', () => {
   const peripheral = createPeripheral();
   expect(mockBleno.mock).toMatchSnapshot();

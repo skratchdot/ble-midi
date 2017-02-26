@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getIncomingPacketHandler(2) 1`] = `
+Object {
+  "calls": Array [
+    Array [
+      2,
+    ],
+  ],
+  "instances": Array [
+    [Function],
+  ],
+}
+`;
+
+exports[`getIncomingPacketHandler(2) 2`] = `
+Object {
+  "calls": Array [
+    Array [
+      Array [
+        "mock-status-1",
+        "mock-one-1",
+        "mock-two-1",
+      ],
+    ],
+    Array [
+      Array [
+        "mock-status-2",
+        "mock-one-2",
+        "mock-two-2",
+      ],
+    ],
+  ],
+  "instances": Array [
+    [Function],
+    [Function],
+  ],
+}
+`;

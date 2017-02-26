@@ -4,8 +4,7 @@ exports[`should RESULT_UNLIKELY_ERROR onWriteRequest with invalid data 1`] = `
 Object {
   "calls": Array [
     Array [
-      "onWriteRequest:",
-      "
+      "onWriteRequest:
              data: 
 
                    undefined
@@ -38,8 +37,7 @@ exports[`should RESULT_UNLIKELY_ERROR onWriteRequest with invalid offset 1`] = `
 Object {
   "calls": Array [
     Array [
-      "onWriteRequest:",
-      "
+      "onWriteRequest:
              data: 0102030405
 
                    undefined
@@ -68,12 +66,18 @@ Object {
 }
 `;
 
+exports[`should RESULT_UNLIKELY_ERROR onWriteRequest with invalid offset 3`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
 exports[`should RESULT_UNLIKELY_ERROR onWriteRequest withoutResponse 1`] = `
 Object {
   "calls": Array [
     Array [
-      "onWriteRequest:",
-      "
+      "onWriteRequest:
              data: 0102030405
 
                    undefined
@@ -82,8 +86,13 @@ Object {
   withoutResponse: false
   ",
     ],
+    Array [
+      "parsedPacket",
+      undefined,
+    ],
   ],
   "instances": Array [
+    undefined,
     undefined,
   ],
 }
@@ -102,12 +111,24 @@ Object {
 }
 `;
 
+exports[`should RESULT_UNLIKELY_ERROR onWriteRequest withoutResponse 3`] = `
+Object {
+  "calls": Array [
+    Array [
+      undefined,
+    ],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;
+
 exports[`should onWriteRequest(validData, 0, true, callback) 1`] = `
 Object {
   "calls": Array [
     Array [
-      "onWriteRequest:",
-      "
+      "onWriteRequest:
              data: 0102030405
 
                    undefined
@@ -149,6 +170,19 @@ Object {
         ],
         "type": "Buffer",
       },
+    ],
+  ],
+  "instances": Array [
+    undefined,
+  ],
+}
+`;
+
+exports[`should onWriteRequest(validData, 0, true, callback) 4`] = `
+Object {
+  "calls": Array [
+    Array [
+      undefined,
     ],
   ],
   "instances": Array [

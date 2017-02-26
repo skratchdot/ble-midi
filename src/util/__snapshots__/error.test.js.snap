@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error(...args) 1`] = `
+Object {
+  "calls": Array [
+    Array [],
+    Array [
+      [Error: MOCK_ERROR_MSG_1],
+    ],
+    Array [
+      "MOCK_ERROR_MSG_2",
+    ],
+    Array [
+      "MOCK_ERROR_MSG_3",
+      "MOCK_ERROR_MSG_4",
+    ],
+  ],
+  "instances": Array [
+    CustomConsole {
+      "_formatBuffer": [Function],
+      "assert": [Function],
+      "dir": [Function],
+      "error": [Function],
+      "info": [Function],
+      "log": [Function],
+      "time": [Function],
+      "timeEnd": [Function],
+      "trace": [Function],
+      "warn": [Function],
+    },
+    CustomConsole {
+      "_formatBuffer": [Function],
+      "assert": [Function],
+      "dir": [Function],
+      "error": [Function],
+      "info": [Function],
+      "log": [Function],
+      "time": [Function],
+      "timeEnd": [Function],
+      "trace": [Function],
+      "warn": [Function],
+    },
+    CustomConsole {
+      "_formatBuffer": [Function],
+      "assert": [Function],
+      "dir": [Function],
+      "error": [Function],
+      "info": [Function],
+      "log": [Function],
+      "time": [Function],
+      "timeEnd": [Function],
+      "trace": [Function],
+      "warn": [Function],
+    },
+    CustomConsole {
+      "_formatBuffer": [Function],
+      "assert": [Function],
+      "dir": [Function],
+      "error": [Function],
+      "info": [Function],
+      "log": [Function],
+      "time": [Function],
+      "timeEnd": [Function],
+      "trace": [Function],
+      "warn": [Function],
+    },
+  ],
+}
+`;

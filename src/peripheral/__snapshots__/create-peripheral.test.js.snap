@@ -46,8 +46,13 @@ Object {
       "disconnect",
       [Function],
     ],
+    Array [
+      "rssiUpdate",
+      [Function],
+    ],
   ],
   "instances": Array [
+    [Function],
     [Function],
     [Function],
     [Function],
@@ -107,8 +112,79 @@ Object {
       "disconnect",
       [Function],
     ],
+    Array [
+      "rssiUpdate",
+      [Function],
+    ],
   ],
   "instances": Array [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+}
+`;
+
+exports[`should createPeripheral(name, onIncomingPacket) 1`] = `
+Object {
+  "calls": Array [],
+  "instances": Array [],
+}
+`;
+
+exports[`should createPeripheral(name, onIncomingPacket) 2`] = `
+Object {
+  "calls": Array [
+    Array [
+      "stateChange",
+      [Function],
+    ],
+    Array [
+      "advertisingStart",
+      [Function],
+    ],
+    Array [
+      "platform",
+      [Function],
+    ],
+    Array [
+      "addressChange",
+      [Function],
+    ],
+    Array [
+      "advertisingStop",
+      [Function],
+    ],
+    Array [
+      "servicesSet",
+      [Function],
+    ],
+    Array [
+      "accept",
+      [Function],
+    ],
+    Array [
+      "mtuChange",
+      [Function],
+    ],
+    Array [
+      "disconnect",
+      [Function],
+    ],
+    Array [
+      "rssiUpdate",
+      [Function],
+    ],
+  ],
+  "instances": Array [
+    [Function],
     [Function],
     [Function],
     [Function],
