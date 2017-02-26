@@ -1,6 +1,13 @@
 /* eslint-env jest */
 jest.mock('yargs');
-jest.mock('../../../midi/list-devices');
+jest.mock('../../../midi/list-devices', () => jest.fn());
+
+let mockListDevices;
+
+beforeEach(() => {
+  jest.resetAllMocks();
+  mockListDevices = require('../../../midi/list-devices');
+});
 
 test('builder(yargs)', () => {
   const mockYargs = require('yargs')();
@@ -11,7 +18,6 @@ test('builder(yargs)', () => {
 });
 
 test('handler', () => {
-  const mockListDevices = require('../../../midi/list-devices').default;
   const handler = require('../list-devices').handler;
   handler();
   expect(mockListDevices.mock).toMatchSnapshot();

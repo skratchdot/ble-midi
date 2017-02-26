@@ -1,6 +1,13 @@
 /* eslint-env jest */
 jest.mock('yargs');
-jest.mock('../../../peripheral/create-peripheral');
+jest.mock('../../../peripheral/create-peripheral', () => jest.fn());
+
+let mockCreatePeripheral;
+
+beforeEach(() => {
+  jest.resetAllMocks();
+  mockCreatePeripheral = require('../../../peripheral/create-peripheral');
+});
 
 test('builder(yargs)', () => {
   const mockYargs = require('yargs')();
@@ -12,9 +19,6 @@ test('builder(yargs)', () => {
 });
 
 test('handler(argv)', () => {
-  const mockCreatePeripheral = require(
-    '../../../peripheral/create-peripheral'
-  ).default;
   const handler = require('../peripheral').handler;
   handler({
     name: 'MOCK_NAME'

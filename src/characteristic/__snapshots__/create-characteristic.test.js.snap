@@ -1,80 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should createCharacteristic() 1`] = `
-Object {
-  "calls": Array [
-    Array [
-      Object {
-        "descriptors": Array [],
-        "onIndicate": [Function],
-        "onNotify": [Function],
-        "onReadRequest": [Function],
-        "onSubscribe": [Function],
-        "onUnsubscribe": [Function],
-        "onWriteRequest": [Function],
-        "properties": Array [
-          "read",
-          "write",
-          "writeWithoutResponse",
-          "notify",
-        ],
-        "secure": Array [
-          "read",
-          "write",
-          "writeWithoutResponse",
-          "notify",
-        ],
-        "uuid": "7772E5DB-3868-4112-A1A9-F2669D106BF3",
-        "value": null,
-      },
-    ],
-  ],
-  "instances": Array [
-    Characteristic {
-      "addListener": [Function],
-      "emit": [Function],
-      "eventNames": [Function],
-      "getMaxListeners": [Function],
-      "listenerCount": [Function],
-      "listeners": [Function],
+Array [
+  Array [
+    Object {
+      "descriptors": Array [],
       "onIndicate": [Function],
       "onNotify": [Function],
       "onReadRequest": [Function],
       "onSubscribe": [Function],
       "onUnsubscribe": [Function],
       "onWriteRequest": [Function],
-      "once": [Function],
-      "prependListener": [Function],
-      "prependOnceListener": [Function],
-      "removeAllListeners": [Function],
-      "removeListener": [Function],
-      "setMaxListeners": [Function],
-      "toString": [Function],
+      "properties": Array [
+        "read",
+        "write",
+        "writeWithoutResponse",
+        "notify",
+      ],
+      "secure": Array [
+        "read",
+        "write",
+        "writeWithoutResponse",
+        "notify",
+      ],
+      "uuid": "7772E5DB-3868-4112-A1A9-F2669D106BF3",
+      "value": null,
     },
   ],
-}
-`;
-
-exports[`should createCharacteristic() 2`] = `
-Characteristic {
-  "addListener": [Function],
-  "emit": [Function],
-  "eventNames": [Function],
-  "getMaxListeners": [Function],
-  "listenerCount": [Function],
-  "listeners": [Function],
-  "onIndicate": [Function],
-  "onNotify": [Function],
-  "onReadRequest": [Function],
-  "onSubscribe": [Function],
-  "onUnsubscribe": [Function],
-  "onWriteRequest": [Function],
-  "once": [Function],
-  "prependListener": [Function],
-  "prependOnceListener": [Function],
-  "removeAllListeners": [Function],
-  "removeListener": [Function],
-  "setMaxListeners": [Function],
-  "toString": [Function],
-}
+]
 `;
