@@ -34,7 +34,7 @@ module.exports = {
     'eol-last': ['error', 'always'],
     'func-call-spacing': ['error', 'never'],
     'guard-for-in': 'error',
-    indent: ['error', 2],
+    indent: ['error', 2, { SwitchCase: 1 }],
     'keyword-spacing': 'error',
     'linebreak-style': ['error', 'unix'],
     'no-alert': 'error',
