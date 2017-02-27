@@ -7,17 +7,20 @@
     "ble-midi": "./scripts/cli.js"
   },
   "scripts": {
-    "build": "npm-run-all clean format lint flow transpile coverage",
-    "clean": "rimraf coverage/ lib/",
+    "build": "npm-run-all clean format lint flow transpile coverage webpack",
+    "clean": "rimraf build/* coverage/ lib/",
     "coverage": "jest --coverage",
     "coveralls": "cat coverage/lcov.info | coveralls --verbose",
     "flow": "flow check --traces 10",
     "format": "prettier --write --single-quote --parser 'flow' 'src/**/*.js'",
     "lint": "eslint .",
     "prepublish": "npm run build",
-    "start": "./scripts/cli-babel.js peripheral",
+    "start": "npm-run-all webpack:dev",
+    "start:peripheral": "./scripts/cli-babel.js peripheral",
     "test": "jest",
-    "transpile": "babel -d lib src"
+    "transpile": "babel -d lib src",
+    "webpack": "webpack",
+    "webpack:dev": "webpack-dev-server --hot --inline"
   },
   "homepage": "https://github.com/skratchdot/ble-midi",
   "repository": "skratchdot/ble-midi",
@@ -27,6 +30,7 @@
   "author": "skratchdot",
   "license": "MIT",
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "bleno": "^0.4.1",
     "midi": "^0.9.5",
     "noble": "^1.8.0",
@@ -37,8 +41,9 @@
     "babel-core": "^6.23.1",
     "babel-eslint": "^7.1.1",
     "babel-jest": "^19.0.0",
-    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-loader": "^6.3.2",
     "babel-preset-env": "^1.1.10",
+    "babel-preset-react": "^6.23.0",
     "coveralls": "^2.11.16",
     "cross-env": "^3.1.4",
     "eslint": "^3.16.1",
@@ -46,10 +51,16 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-react": "^6.10.0",
     "flow-bin": "^0.40.0",
+    "html-webpack-plugin": "^2.28.0",
     "jest": "^19.0.2",
     "npm-run-all": "^4.0.2",
     "prettier": "^0.19.0",
-    "rimraf": "^2.6.1"
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   },
   "keywords": [
     "ble",
