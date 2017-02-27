@@ -13,7 +13,9 @@ let mockExit;
 beforeEach(() => {
   jest.resetAllMocks();
   mockCreatePeripheral = require('../../../peripheral/create-peripheral');
-  mockGetIncomingPacketHandler = require('../../../midi/get-incoming-packet-handler');
+  mockGetIncomingPacketHandler = require(
+    '../../../midi/get-incoming-packet-handler'
+  );
   mockError = require('../../../util/error').default;
   mockExit = require('../../../util/exit').default;
 });
@@ -29,7 +31,9 @@ test('builder(yargs)', () => {
 
 test('handler(argv) - no error', () => {
   const handler = require('../peripheral').handler;
-  mockGetIncomingPacketHandler.mockReturnValue(Promise.resolve(mockCreatePeripheral));
+  mockGetIncomingPacketHandler.mockReturnValue(
+    Promise.resolve(mockCreatePeripheral)
+  );
   handler({
     name: 'MOCK_NAME_1',
     midiOut: 'MOCK_MIDI_OUT_1'
@@ -40,7 +44,9 @@ test('handler(argv) - no error', () => {
 
 test('handler(argv) - error', () => {
   const handler = require('../peripheral').handler;
-  mockGetIncomingPacketHandler.mockReturnValue(Promise.reject(new Error('MOCK_ERROR')));
+  mockGetIncomingPacketHandler.mockReturnValue(
+    Promise.reject(new Error('MOCK_ERROR'))
+  );
   handler({
     name: 'MOCK_NAME_2',
     midiOut: 'MOCK_MIDI_OUT_2'

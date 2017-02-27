@@ -10,9 +10,11 @@ test('exit(...args)', () => {
   exit();
   exit(0);
   exit(1);
-  expect(mockExit.mock.calls.length).toEqual(3);
-  expect(mockExit.mock.calls[0][0]).toBeUndefined();
+  exit(9);
+  expect(mockExit.mock.calls.length).toEqual(4);
+  expect(mockExit.mock.calls[0][0]).toEqual(0);
   expect(mockExit.mock.calls[1][0]).toEqual(0);
   expect(mockExit.mock.calls[2][0]).toEqual(1);
+  expect(mockExit.mock.calls[3][0]).toEqual(9);
   process.exit = originalExit;
 });

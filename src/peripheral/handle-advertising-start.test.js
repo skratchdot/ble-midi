@@ -7,12 +7,14 @@ let mockCreateCharacteristic;
 let mockCreateService;
 let mockLog;
 let mockBleno;
-let mockOnIncomingPacket
+let mockOnIncomingPacket;
 let handleAdvertisingStart;
 
 beforeEach(() => {
   jest.resetAllMocks();
-  mockCreateCharacteristic = require('../characteristic/create-characteristic').default;
+  mockCreateCharacteristic = require(
+    '../characteristic/create-characteristic'
+  ).default;
   mockCreateService = require('../service/create-service').default;
   mockLog = require('../util/logger').default;
   mockBleno = jest.fn();
@@ -30,7 +32,11 @@ test('should handleAdvertisingStart success', () => {
 });
 
 test('should handleAdvertisingStart error', () => {
-  handleAdvertisingStart(mockBleno, mockOnIncomingPacket, new Error('mock-error'));
+  handleAdvertisingStart(
+    mockBleno,
+    mockOnIncomingPacket,
+    new Error('mock-error')
+  );
   expect(mockLog.mock).toMatchSnapshot();
   expect(mockCreateCharacteristic.mock).toMatchSnapshot();
   expect(mockCreateService.mock).toMatchSnapshot();

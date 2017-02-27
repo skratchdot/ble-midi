@@ -17,7 +17,11 @@ export default (midiOut: ?number) => new Promise((resolve, reject) => {
     const onIncomingPacket = (info: Info) => {
       info.events.forEach((message: Message) => {
         if (message instanceof MessageMidi) {
-          output.sendMessage([message.midiStatus, message.midiOne, message.midiTwo]);
+          output.sendMessage([
+            message.midiStatus,
+            message.midiOne,
+            message.midiTwo
+          ]);
         }
       });
     };

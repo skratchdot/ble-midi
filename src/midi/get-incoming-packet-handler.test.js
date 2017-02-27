@@ -52,9 +52,21 @@ test('getIncomingPacketHandler(2)', () => {
   return getIncomingPacketHandler(2).then(onIncomingPacket => {
     const info = {
       events: [
-        new MessageMidi('mock-message-1', 'mock-time-1', 'mock-status-1', 'mock-one-1', 'mock-two-1'),
+        new MessageMidi(
+          'mock-message-1',
+          'mock-time-1',
+          'mock-status-1',
+          'mock-one-1',
+          'mock-two-1'
+        ),
         'invalid event 1',
-        new MessageMidi('mock-message-2', 'mock-time-2', 'mock-status-2', 'mock-one-2', 'mock-two-2'),
+        new MessageMidi(
+          'mock-message-2',
+          'mock-time-2',
+          'mock-status-2',
+          'mock-one-2',
+          'mock-two-2'
+        ),
         'invalid event 2'
       ]
     };

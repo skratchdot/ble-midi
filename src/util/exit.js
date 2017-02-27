@@ -1,2 +1,2 @@
 // @flow
-export default (exitCode: ?number) => process.exit(exitCode);
+export default (exitCode: number = 0) => process.exit(exitCode);
