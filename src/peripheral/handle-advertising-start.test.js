@@ -25,9 +25,9 @@ beforeEach(() => {
 
 test('should handleAdvertisingStart success', () => {
   handleAdvertisingStart(mockBleno, mockOnIncomingPacket, null);
-  expect(mockCreateCharacteristic.mock).toMatchSnapshot();
-  expect(mockCreateService.mock).toMatchSnapshot();
-  expect(mockLog.mock).toMatchSnapshot();
+  expect(mockCreateCharacteristic.mock.calls).toMatchSnapshot();
+  expect(mockCreateService.mock.calls).toMatchSnapshot();
+  expect(mockLog.mock.calls).toMatchSnapshot();
   expect(mockBleno.setServices.mock).toMatchSnapshot();
 });
 
@@ -37,9 +37,9 @@ test('should handleAdvertisingStart error', () => {
     mockOnIncomingPacket,
     new Error('mock-error')
   );
-  expect(mockLog.mock).toMatchSnapshot();
+  expect(mockLog.mock.calls).toMatchSnapshot();
   expect(mockCreateCharacteristic.mock).toMatchSnapshot();
   expect(mockCreateService.mock).toMatchSnapshot();
-  expect(mockLog.mock).toMatchSnapshot();
+  expect(mockLog.mock.calls).toMatchSnapshot();
   expect(mockBleno.setServices.mock).toMatchSnapshot();
 });

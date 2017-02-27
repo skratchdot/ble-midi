@@ -21,7 +21,7 @@ beforeEach(() => {
     () => {
       const fn = defaultHandler(name);
       fn(...args);
-      expect(mockLog.mock).toMatchSnapshot();
+      expect(mockLog.mock.calls).toMatchSnapshot();
     }
   );
 });

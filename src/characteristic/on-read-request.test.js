@@ -8,7 +8,7 @@ test('should onReadRequest(offset, callback)', () => {
   const offset = jest.fn();
   const callback = jest.fn();
   onReadRequest(offset, callback);
-  expect(mockLog.mock).toMatchSnapshot();
+  expect(mockLog.mock.calls).toMatchSnapshot();
   expect(mockLog.mock.calls.length).toEqual(1);
   expect(mockLog.mock.calls[0].length).toEqual(2);
   expect(callback.mock).toMatchSnapshot();

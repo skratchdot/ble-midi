@@ -1,16 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should handleAdvertisingStart error 1`] = `
-Object {
-  "calls": Array [
-    Array [
-      "advertisingStart: Error: mock-error",
-    ],
+Array [
+  Array [
+    "advertisingStart: Error: mock-error",
   ],
-  "instances": Array [
-    undefined,
-  ],
-}
+]
 `;
 
 exports[`should handleAdvertisingStart error 2`] = `
@@ -28,16 +23,11 @@ Object {
 `;
 
 exports[`should handleAdvertisingStart error 4`] = `
-Object {
-  "calls": Array [
-    Array [
-      "advertisingStart: Error: mock-error",
-    ],
+Array [
+  Array [
+    "advertisingStart: Error: mock-error",
   ],
-  "instances": Array [
-    undefined,
-  ],
-}
+]
 `;
 
 exports[`should handleAdvertisingStart error 5`] = `
@@ -48,42 +38,27 @@ Object {
 `;
 
 exports[`should handleAdvertisingStart success 1`] = `
-Object {
-  "calls": Array [
-    Array [
-      [Function],
-    ],
+Array [
+  Array [
+    [Function],
   ],
-  "instances": Array [
-    undefined,
-  ],
-}
+]
 `;
 
 exports[`should handleAdvertisingStart success 2`] = `
-Object {
-  "calls": Array [
-    Array [
-      undefined,
-    ],
-  ],
-  "instances": Array [
+Array [
+  Array [
     undefined,
   ],
-}
+]
 `;
 
 exports[`should handleAdvertisingStart success 3`] = `
-Object {
-  "calls": Array [
-    Array [
-      "advertisingStart: success",
-    ],
+Array [
+  Array [
+    "advertisingStart: success",
   ],
-  "instances": Array [
-    undefined,
-  ],
-}
+]
 `;
 
 exports[`should handleAdvertisingStart success 4`] = `

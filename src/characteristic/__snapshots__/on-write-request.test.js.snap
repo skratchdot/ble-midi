@@ -1,10 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should RESULT_UNLIKELY_ERROR onWriteRequest with invalid data 1`] = `
-Object {
-  "calls": Array [
-    Array [
-      "onWriteRequest:
+Array [
+  Array [
+    "onWriteRequest:
              data: 
 
                    undefined
@@ -12,12 +11,8 @@ Object {
            offset: 0
   withoutResponse: true
   ",
-    ],
   ],
-  "instances": Array [
-    undefined,
-  ],
-}
+]
 `;
 
 exports[`should RESULT_UNLIKELY_ERROR onWriteRequest with invalid data 2`] = `
@@ -34,10 +29,9 @@ Object {
 `;
 
 exports[`should RESULT_UNLIKELY_ERROR onWriteRequest with invalid offset 1`] = `
-Object {
-  "calls": Array [
-    Array [
-      "onWriteRequest:
+Array [
+  Array [
+    "onWriteRequest:
              data: 0102030405
 
                    undefined
@@ -45,12 +39,8 @@ Object {
            offset: 5
   withoutResponse: true
   ",
-    ],
   ],
-  "instances": Array [
-    undefined,
-  ],
-}
+]
 `;
 
 exports[`should RESULT_UNLIKELY_ERROR onWriteRequest with invalid offset 2`] = `
@@ -74,10 +64,9 @@ Object {
 `;
 
 exports[`should RESULT_UNLIKELY_ERROR onWriteRequest withoutResponse 1`] = `
-Object {
-  "calls": Array [
-    Array [
-      "onWriteRequest:
+Array [
+  Array [
+    "onWriteRequest:
              data: 0102030405
 
                    undefined
@@ -85,17 +74,12 @@ Object {
            offset: 0
   withoutResponse: false
   ",
-    ],
-    Array [
-      "parsedPacket",
-      undefined,
-    ],
   ],
-  "instances": Array [
-    undefined,
+  Array [
+    "parsedPacket",
     undefined,
   ],
-}
+]
 `;
 
 exports[`should RESULT_UNLIKELY_ERROR onWriteRequest withoutResponse 2`] = `
@@ -125,10 +109,9 @@ Object {
 `;
 
 exports[`should onWriteRequest(validData, 0, true, callback) 1`] = `
-Object {
-  "calls": Array [
-    Array [
-      "onWriteRequest:
+Array [
+  Array [
+    "onWriteRequest:
              data: 0102030405
 
                    undefined
@@ -136,17 +119,12 @@ Object {
            offset: 0
   withoutResponse: true
   ",
-    ],
-    Array [
-      "parsedPacket",
-      undefined,
-    ],
   ],
-  "instances": Array [
-    undefined,
+  Array [
+    "parsedPacket",
     undefined,
   ],
-}
+]
 `;
 
 exports[`should onWriteRequest(validData, 0, true, callback) 2`] = `
@@ -157,25 +135,20 @@ Object {
 `;
 
 exports[`should onWriteRequest(validData, 0, true, callback) 3`] = `
-Object {
-  "calls": Array [
-    Array [
-      Object {
-        "data": Array [
-          1,
-          2,
-          3,
-          4,
-          5,
-        ],
-        "type": "Buffer",
-      },
-    ],
+Array [
+  Array [
+    Object {
+      "data": Array [
+        1,
+        2,
+        3,
+        4,
+        5,
+      ],
+      "type": "Buffer",
+    },
   ],
-  "instances": Array [
-    undefined,
-  ],
-}
+]
 `;
 
 exports[`should onWriteRequest(validData, 0, true, callback) 4`] = `

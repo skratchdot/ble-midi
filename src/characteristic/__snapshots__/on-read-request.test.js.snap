@@ -1,17 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should onReadRequest(offset, callback) 1`] = `
-Object {
-  "calls": Array [
-    Array [
-      "onReadRequest",
-      [Function],
-    ],
+Array [
+  Array [
+    "onReadRequest",
+    [Function],
   ],
-  "instances": Array [
-    undefined,
-  ],
-}
+]
 `;
 
 exports[`should onReadRequest(offset, callback) 2`] = `

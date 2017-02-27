@@ -16,7 +16,7 @@ test('should handleStateChange when poweredOn', () => {
   handleStateChange(bleno, 'mock-name', 'poweredOn');
   expect(bleno.mock).toMatchSnapshot();
   expect(bleno.startAdvertising.mock).toMatchSnapshot();
-  expect(mockLog.mock).toMatchSnapshot();
+  expect(mockLog.mock.calls).toMatchSnapshot();
 });
 
 test('should handleStateChange when not poweredOn', () => {
@@ -25,5 +25,5 @@ test('should handleStateChange when not poweredOn', () => {
   handleStateChange(bleno, 'mock-name', 'mock-state');
   expect(bleno.mock).toMatchSnapshot();
   expect(bleno.stopAdvertising.mock).toMatchSnapshot();
-  expect(mockLog.mock).toMatchSnapshot();
+  expect(mockLog.mock.calls).toMatchSnapshot();
 });

@@ -23,12 +23,12 @@ test('should onWriteRequest(validData, 0, true, callback)', () => {
   const withoutResponse = true;
   const callback = jest.fn();
   onWriteRequest(mockOnIncomingPacket, data, offset, withoutResponse, callback);
-  expect(mockLog.mock).toMatchSnapshot();
+  expect(mockLog.mock.calls).toMatchSnapshot();
   expect(mockLog.mock.calls.length).toEqual(2);
   expect(mockLog.mock.calls[0].length).toEqual(1);
   expect(callback.mock).toMatchSnapshot();
   expect(callback.mock.calls.length).toEqual(0);
-  expect(mockParsePacket.mock).toMatchSnapshot();
+  expect(mockParsePacket.mock.calls).toMatchSnapshot();
   expect(mockOnIncomingPacket.mock).toMatchSnapshot();
 });
 
@@ -36,7 +36,7 @@ test('should RESULT_UNLIKELY_ERROR onWriteRequest withoutResponse', () => {
   const data = new Buffer([1, 2, 3, 4, 5]);
   const callback = jest.fn();
   onWriteRequest(mockOnIncomingPacket, data, 0, false, callback);
-  expect(mockLog.mock).toMatchSnapshot();
+  expect(mockLog.mock.calls).toMatchSnapshot();
   expect(callback.mock).toMatchSnapshot();
   expect(callback.mock.calls.length).toEqual(1);
   expect(mockOnIncomingPacket.mock).toMatchSnapshot();
@@ -46,7 +46,7 @@ test('should RESULT_UNLIKELY_ERROR onWriteRequest with invalid offset', () => {
   const data = new Buffer([1, 2, 3, 4, 5]);
   const callback = jest.fn();
   onWriteRequest(mockOnIncomingPacket, data, 5, true, callback);
-  expect(mockLog.mock).toMatchSnapshot();
+  expect(mockLog.mock.calls).toMatchSnapshot();
   expect(callback.mock).toMatchSnapshot();
   expect(callback.mock.calls.length).toEqual(1);
   expect(mockOnIncomingPacket.mock).toMatchSnapshot();
@@ -56,7 +56,7 @@ test('should RESULT_UNLIKELY_ERROR onWriteRequest with invalid data', () => {
   const invalidData = new Buffer(0);
   const callback = jest.fn();
   onWriteRequest(mockOnIncomingPacket, invalidData, 0, true, callback);
-  expect(mockLog.mock).toMatchSnapshot();
+  expect(mockLog.mock.calls).toMatchSnapshot();
   expect(callback.mock).toMatchSnapshot();
   expect(callback.mock.calls.length).toEqual(1);
 });

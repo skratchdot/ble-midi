@@ -37,7 +37,7 @@ beforeEach(() => {
 ].forEach(types => {
   test(`listDevices(${JSON.stringify(types)})`, () => {
     listDevices(types);
-    expect(mockLog.mock).toMatchSnapshot();
+    expect(mockLog.mock.calls).toMatchSnapshot();
     expect(mockMidi.mock).toMatchSnapshot();
   });
 });

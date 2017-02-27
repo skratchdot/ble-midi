@@ -19,20 +19,14 @@ Object {
 `;
 
 exports[`should handleStateChange when not poweredOn 3`] = `
-Object {
-  "calls": Array [
-    Array [
-      "stateChange: mock-state",
-    ],
-    Array [
-      "Stop advertising Peripheral \\"mock-name\\": 03B80E5A-EDE8-4B33-A751-6CE34EC4C700",
-    ],
+Array [
+  Array [
+    "stateChange: mock-state",
   ],
-  "instances": Array [
-    undefined,
-    undefined,
+  Array [
+    "Stop advertising Peripheral \\"mock-name\\": 03B80E5A-EDE8-4B33-A751-6CE34EC4C700",
   ],
-}
+]
 `;
 
 exports[`should handleStateChange when poweredOn 1`] = `
@@ -59,18 +53,12 @@ Object {
 `;
 
 exports[`should handleStateChange when poweredOn 3`] = `
-Object {
-  "calls": Array [
-    Array [
-      "stateChange: poweredOn",
-    ],
-    Array [
-      "Start Advertising Peripheral \\"mock-name\\": 03B80E5A-EDE8-4B33-A751-6CE34EC4C700",
-    ],
+Array [
+  Array [
+    "stateChange: poweredOn",
   ],
-  "instances": Array [
-    undefined,
-    undefined,
+  Array [
+    "Start Advertising Peripheral \\"mock-name\\": 03B80E5A-EDE8-4B33-A751-6CE34EC4C700",
   ],
-}
+]
 `;
