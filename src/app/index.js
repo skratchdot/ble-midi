@@ -5,11 +5,10 @@ import { AppContainer } from 'react-hot-loader';
 import { Provider } from 'react-redux';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
+import configureStore from './store/configure-store';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-import reducers from './reducers/index';
 
-const store = createStore(reducers);
+const store = configureStore();
 
 const render = Component => {
   ReactDOM.render(

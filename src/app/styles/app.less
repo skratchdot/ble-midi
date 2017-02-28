@@ -4,5 +4,34 @@ html, body {
   border: 0;
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
   font-family: Roboto, sans-serif;
+}
+
+.react-layout-components--box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* prevent ghost images */
+svg, svg *, img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+footer a {
+  color: white;
 }

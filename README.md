@@ -72,6 +72,11 @@ ble-midi advertise --midi-out 2
 ### Random
 - http://shawnhymel.com/703/bluetooth-low-energy-peripherals-with-javascript/
 
+## Credits
+
+- MIDI Icon by Kurt Lorenz from the Noun Project
+- Bluetooth Icon by Barracuda from the Noun Project
+
 
 ## License
 

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { blueA400, blueA700 } from 'material-ui/styles/colors';
-import AppBar from 'material-ui/AppBar';
-import MainForm from '../components/main-form';
+import Footer from '../components/footer';
+import Header from '../components/header';
+import Main from '../components/main';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import NoBluetoothSupport from '../components/no-bluetooth-support';
+import { VBox } from 'react-layout-components';
 import { connect } from 'react-redux';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
@@ -16,22 +18,33 @@ const muiTheme = getMuiTheme({
 
 export class App extends Component {
   static propTypes = {
-    bluetoothEnabled: React.PropTypes.bool
+    bluetooth: React.PropTypes.obj
   };
   render() {
-    const { bluetoothEnabled } = this.props;
-    const body = bluetoothEnabled ? <MainForm /> : <NoBluetoothSupport />;
+    const { bluetooth } = this.props;
+    const alerts = [];
+    if (!bluetooth.get('supported')) {
+      alerts.push(<NoBluetoothSupport key="no-support" />);
+    }
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
-        <div>
-          <AppBar title="BLE MIDI" showMenuIconButton={false} />
-          {body}
-        </div>
+        <VBox style={{ minHeight: '100vh' }}>
+          <VBox>
+            <Header />
+          </VBox>
+          <VBox flexGrow={1} style={{ padding: 54 }}>
+            {alerts}
+            <Main />
+          </VBox>
+          <VBox>
+            <Footer />
+          </VBox>
+        </VBox>
       </MuiThemeProvider>
     );
   }
 }
 
 export default connect(state => ({
-  bluetoothEnabled: state.bluetoothEnabled
+  bluetooth: state.bluetooth
 }))(App);
